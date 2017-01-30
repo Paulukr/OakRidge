@@ -9,7 +9,7 @@ pageEncoding="UTF-8"%>
 <body>
 <%@include file="/WEB-INF/navigation/Header.jsp"%>
 <h2>Hello!</h2>
-<%-- <%@include file="/WEB-INF/forms\AddBookForm.jsp"%> --%>
+<%@include file="/WEB-INF/forms\AddBookForm.jsp"%>
 
 <p> <a href = "NewFile.html">html file in webapps</a>
 
