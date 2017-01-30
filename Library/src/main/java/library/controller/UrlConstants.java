@@ -41,20 +41,23 @@ public class UrlConstants {
 
     
     
+    public static final String HOME = "/index.jsp";
     
     public static final String LIBRARIAN = "/Library/map/librarian";
     
 //    public static final String USER = "/user";
     
     public static final String BOOK = "/book";
+    public static final String VOLUME = "/volume";
     public static final String ADD = "/add";
     public static final String BOOK_ADD = LIBRARIAN + BOOK + ADD;
+    public static final String VOLUME_ADD = LIBRARIAN + VOLUME + ADD;
    
     
     public static final String BOOK_ADD_SUCCESS = "/WEB-INF/responces/AddBook.jsp";
     public static final String BOOK_ADD_ERROR = "/WEB-INF/responces/AddBookError.jsp";
     
-    public static final String PAGE_NOT_FOUND = "/notFound";
+    public static final String PAGE_NOT_FOUND = "/WEB-INF/responces//PageNotFound.jsp";
     
 
     

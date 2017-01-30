@@ -5,6 +5,7 @@ import java.util.Map;
 
 import library.controller.UrlConstants;
 import library.controller.command.lib_commands.AddBookCommand;
+import library.controller.command.lib_commands.AddVolumeCommand;
 
 public class CommandMapper {
 	public static final String GET = "GET";
@@ -27,6 +28,7 @@ public class CommandMapper {
 	private void postMapInit() {
 		postCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new CommandMock());
 		postCommandsMap.put(UrlConstants.BOOK_ADD, new AddBookCommand());
+		postCommandsMap.put(UrlConstants.VOLUME_ADD, new AddVolumeCommand());
 
     }
 	

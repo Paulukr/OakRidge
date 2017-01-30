@@ -6,6 +6,7 @@ import library.controller.command.Command;
 import library.controller.command.CommandMapper;
 
 import java.io.IOException;
+import java.util.Enumeration;
 
 import javax.activation.CommandMap;
 import javax.activation.MailcapCommandMap;
@@ -65,11 +66,20 @@ request.getRequestDispatcher("/NewFile.html").forward(request, response);
             throws ServletException, IOException {
         
 
-        
+    	Enumeration<String> resultE = request.getAttributeNames();
+    	String resultA = String.valueOf(request.getAttribute("first_name"));
+    	
     	Command command = commandMapper.getPostCommand(request.getRequestURI());
+
+    	
+    	
     	String result = command.execute(request, response);
 //        response.getOutputStream().println("<p>doPost</p>");
         
+    	String shared = "shared";
+    	request.setAttribute("sharedId", shared); // add to request
+    	String resultB = String.valueOf(request.getAttribute("sharedId"));
+    	
         request.getRequestDispatcher(result).forward(request, response);
     }
 

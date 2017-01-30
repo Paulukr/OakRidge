@@ -8,6 +8,22 @@
 </head>
 <body>
 <%@include file="../../WEB-INF/navigation/Header.jsp"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<body>
+<%-- <cut value= "${shared}"/> --%>
+<%-- <cut value= "${requestScope.shared}"/> --%>
+<%-- <cut value= "${requestScope.request.shared}"/> --%>
+
+    <c:set var="fullName" value="${shared}" />
+    <h1>${fullName}</h1>
+
+
+
+<%
+ String shared = (String)request.getAttribute("sharedId");
+%>
+<%= shared %>
 <p align="center">PageNotFound</p>
+<p> <c:out value=""></c:out> </p>
 </body>
 </html>
