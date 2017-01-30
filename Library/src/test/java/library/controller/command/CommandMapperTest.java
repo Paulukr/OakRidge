@@ -1,7 +1,5 @@
 package library.controller.command;
 
-import javax.enterprise.inject.New;
-
 import junit.framework.TestCase;
 import library.controller.UrlConstants;
 
