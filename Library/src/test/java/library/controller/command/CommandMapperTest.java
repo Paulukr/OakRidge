@@ -17,9 +17,9 @@ public class CommandMapperTest extends TestCase {
 		assertNotNull(cMapper);
 		com = cMapper.getGetCommand(UrlConstants.PAGE_NOT_FOUND);
 		assertNotNull(cMapper);
-		com = cMapper.getGetCommand(UrlConstants.COURSES);
+		com = cMapper.getGetCommand(UrlConstants.HOME);
 		assertNotNull(cMapper);
-		assertEquals("index.jsp", com.execute(null, null));
+		assertEquals("/index.jsp", com.execute(null, null));
 
 	}
 

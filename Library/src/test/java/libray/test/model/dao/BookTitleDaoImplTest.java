@@ -2,7 +2,6 @@ package libray.test.model.dao;
 
 import static org.junit.Assert.*;
 
-import java.awt.List;
 import java.util.Arrays;
 
 import org.junit.Before;

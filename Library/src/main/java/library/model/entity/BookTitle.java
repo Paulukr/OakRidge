@@ -1,7 +1,5 @@
 package library.model.entity;
 
-import java.awt.List;
-
 public class BookTitle {
 	private String title;
 
