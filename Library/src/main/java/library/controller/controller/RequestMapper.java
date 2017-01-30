@@ -76,7 +76,7 @@ request.getRequestDispatcher("/NewFile.html").forward(request, response);
     	String result = command.execute(request, response);
 //        response.getOutputStream().println("<p>doPost</p>");
         
-    	String shared = "shared";
+    	String shared = "sharedValue";
     	request.setAttribute("sharedId", shared); // add to request
     	String resultB = String.valueOf(request.getAttribute("sharedId"));
     	
