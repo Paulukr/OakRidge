@@ -7,19 +7,12 @@
 
 
 <html>
+<title>Add new book</title>
 <body>
 <%@include file="/WEB-INF/navigation/Header.jsp"%>
 <h2>Hello!</h2>
 <%@include file="/WEB-INF/forms\AddBookForm.jsp"%>
 
-<p> <a href = "NewFile.html">html file in webapps</a>
-
-<p>Current time is: <%=  new java.util.Date() %></p>
-
-
-
-
-
-
+<%@include file="/WEB-INF/navigation/Footer.jsp"%>
 </body>
 </html>
