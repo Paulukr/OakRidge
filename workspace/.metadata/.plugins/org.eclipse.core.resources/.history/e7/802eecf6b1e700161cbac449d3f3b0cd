@@ -1,0 +1,7 @@
+package library.model.dao.declaration;
+
+public interface BookTypeDao {
+
+	String[] getBookTypes();
+
+}

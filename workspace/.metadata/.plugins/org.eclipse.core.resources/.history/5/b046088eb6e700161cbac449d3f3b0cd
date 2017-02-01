@@ -1,0 +1,12 @@
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>LibrarianNav</title>
+</head>
+<%@include file="Header.jsp"%>
+<body>
+<p align="left"><a href="${}UrlConstants.BOOK_ADD_FORM"}><b>Add new book</b></a> </p>
+</body>
+</html>

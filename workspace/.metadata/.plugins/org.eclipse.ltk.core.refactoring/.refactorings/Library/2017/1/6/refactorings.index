@@ -1,0 +1,10 @@
+1485866935032	Move 'AddBook.jsp' to 'vievs'
+1485871288134	Rename field 'BOOK_ADD'
+1485871460524	Rename field 'VOLUME_ADD'
+1485871470610	Rename field 'BOOK_ADD_SUCCESS'
+1485871774126	Rename field 'RESPONSE'
+1485871905683	Rename resource 'responces'
+1485878222851	Rename field 'BOOK_SEARCH'
+1485878262212	Rename field 'BOOK_ADD_ERROR'
+1485885723682	Copy file
+1485887101152	Rename resource 'responcses'
