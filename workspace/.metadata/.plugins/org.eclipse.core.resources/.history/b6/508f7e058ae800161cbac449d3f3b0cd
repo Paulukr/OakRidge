@@ -8,9 +8,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Type book info here</title>
+<title>Insert title here</title>
 </head>
 <body>
+	<%-- ${requestScope} --%>
+
 	<c:set var="titleListAttributeName"
 		value="${ViewConstants.TITLE_TYPES_LIST}" />
 	<c:set var="titleList" value="${requestScope[titleListAttributeName]}" />
@@ -32,5 +34,35 @@
 			type="text" name="${ViewConstants.TITLE_AUTHOR}"> <br /> <input
 			type="submit" value="Submit" />
 	</form>
+
+
+
+
+
+
+	<c:set var="fullName" value="${sharedId}" />
+	<h1>s1: ${fullName}</h1>
+	<h1>s2: ${fullName}</h1>
+	<h1>
+		s3:
+		<c:out value="${fullName}"></c:out>
+	</h1>
+	<p>
+		<c:out value="tag"></c:out>
+	</p>
+	<p>
+		<c:out value="${ViewConstants.TITLE_NAME}"></c:out>
+	</p>
+	<p>
+		<c:out value="tag"></c:out>
+	</p>
+	<p>${ViewConstants.TITLE_NAME}</p>
+	<p>
+		<c:out value="tag"></c:out>
+	</p>
+	<p>${ViewConstants.getString()}</p>
+	<p>
+		<c:out value="tag"></c:out>
+	</p>
 </body>
 </html>

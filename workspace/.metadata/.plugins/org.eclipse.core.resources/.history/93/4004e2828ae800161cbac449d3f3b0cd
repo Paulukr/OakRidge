@@ -7,7 +7,6 @@
 
 
 <html>
-<title>Add new book</title>
 <body>
 <%@include file="/WEB-INF/navigation/Header.jsp"%>
 <h2>Hello!</h2>
