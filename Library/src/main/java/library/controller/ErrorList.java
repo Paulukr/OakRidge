@@ -1,4 +1,4 @@
-package library.controller.command;
+package library.controller;
 
 public class ErrorList {
 	public static final String ersx = " error";

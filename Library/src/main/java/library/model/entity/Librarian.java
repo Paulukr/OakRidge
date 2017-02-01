@@ -1,5 +1,6 @@
 package library.model.entity;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,8 +8,10 @@ import javax.print.DocFlavor.INPUT_STREAM;
 
 import library.model.dao.declaration.AuthorDao;
 import library.model.dao.declaration.BookTitleDao;
+import library.model.dao.declaration.BookTypeDao;
 import library.model.dao.implemantation.AuthorDaoImpl;
 import library.model.dao.implemantation.BookTitleDaoImpl;
+import library.model.dao.implemantation.BookTypeDaoImpl;
 
 public class Librarian {
 	boolean addVolumeNewTitle() {
@@ -51,7 +54,10 @@ public class Librarian {
 		
 		return false;
 	}
-	
+	public String[] getBookTypes() throws SQLException {
+		BookTypeDao bookTypeDao = new BookTypeDaoImpl();
+		return bookTypeDao.getBookTypes();
+	}
 	public Integer findBookTitleID(String titleName, int...authors) {
 		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
 		return bookTitleDao.straitLookUp(titleName, authors);

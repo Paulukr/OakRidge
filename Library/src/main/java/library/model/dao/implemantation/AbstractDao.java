@@ -10,7 +10,7 @@ import org.apache.log4j.Logger;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
-import library.controller.command.ErrorList;
+import library.controller.ErrorList;
 import library.dao.DatabaseUtility;
 
 public abstract class AbstractDao {
@@ -21,23 +21,25 @@ public abstract class AbstractDao {
     private static final Logger logger = Logger.getLogger(AbstractDao.class);
     
 
-	
-	protected void init() throws Exception {
+	protected void init() throws SQLException {
 		ComboPooledDataSource dataSource;
 		try {
 			dataSource = DatabaseUtility.getDataSource();
 			connection = dataSource.getConnection();
 		} catch (PropertyVetoException | SQLException e) {
             logger.error(ErrorList.DataSourse, e);
-            throw new Exception(ErrorList.DataSourse, e);
+            throw new SQLException(ErrorList.DataSourse, e);
 		}
 	}
-	public void prepareStatement(String expression) throws Exception {
-    	try {
+	public void prepareStatement(String expression) throws SQLException {
+    
+		try {
+			if(connection == null)
+				init();
 			preparedStatement = connection.prepareStatement(expression);
 		} catch (SQLException e) {
             logger.error(ErrorList.DataSourse, e);
-            throw new Exception(ErrorList.PreparingStatement, e);
+            throw new SQLException(ErrorList.PreparingStatement, e);
 		}
 	}
 	public int query() throws SQLException

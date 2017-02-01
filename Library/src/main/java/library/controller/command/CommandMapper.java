@@ -6,6 +6,9 @@ import java.util.Map;
 import library.controller.UrlConstants;
 import library.controller.command.lib_commands.AddBookCommand;
 import library.controller.command.lib_commands.AddVolumeCommand;
+import library.controller.command.lib_commands.GetBookFormCommand;
+import library.controller.command.lib_commands.PageNotFoundCommand;
+import library.controller.command.lib_commands.SearchBookCommand;
 
 public class CommandMapper {
 	public static final String GET = "GET";
@@ -21,18 +24,20 @@ public class CommandMapper {
 
 	private void getMapInit() {
 //        commandsMap.put(UrlHolder.PATH_LOGOUT, new CommandMock());
-		getCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new CommandMock());
-		getCommandsMap.put("test", new CommandMock());
+		getCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new PageNotFoundCommand());
+		getCommandsMap.put("test", new PageNotFoundCommand());
+		getCommandsMap.put(UrlConstants.C_BOOK_SEARCH, new SearchBookCommand());
+		getCommandsMap.put(UrlConstants.C_GET_BOOK_ADD_FORM, new GetBookFormCommand());
     }
 	
 	private void postMapInit() {
-		postCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new CommandMock());
-		postCommandsMap.put(UrlConstants.BOOK_ADD, new AddBookCommand());
-		postCommandsMap.put(UrlConstants.VOLUME_ADD, new AddVolumeCommand());
+		postCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new PageNotFoundCommand());
+		postCommandsMap.put(UrlConstants.C_BOOK_ADD, new AddBookCommand());
+		postCommandsMap.put(UrlConstants.C_VOLUME_ADD, new AddVolumeCommand());
 
     }
 	
-	String string = new String(UrlConstants.BOOK_ADD);
+	String string = new String(UrlConstants.C_BOOK_ADD);
 	
 	public Command getGetCommand(String URI) {
 		return getCommand(URI, getCommandsMap);
@@ -41,16 +46,23 @@ public class CommandMapper {
 		return getCommand(URI, postCommandsMap);
 	}
 	
-	private Command getCommand(String URI, Map<String, Command> commandsMap) {
+	private Command getCommand(String uri, Map<String, Command> commandsMap) {
     	
-    	System.out.println("\n\n\nConstants\n" +UrlConstants.BOOK_ADD + "\n\n\n");
+    	System.out.println("\n\n\nConstants\n" +UrlConstants.C_BOOK_ADD + "\n\n\n");
     	
     	commandsMap.forEach((a,b) ->{System.out.println(a);});
     	
-    	System.out.println("\n\n\nURI\n" +URI + "\n\n\n");
+//    	URI = ".." + URI;
     	
     	
-		Command command = commandsMap.get(URI);
+    	
+    	
+    	System.out.println("\n\n\nURI\n" +uri + "\n\n\n");
+    	// TODO ad hoc
+    	uri = uri.substring(8);
+    	System.out.println("\n\n\nURI ad hoc\n" +uri + "\n\n\n");
+    	
+		Command command = commandsMap.get(uri);
 		if (command == null)
 			command = commandsMap.get(UrlConstants.PAGE_NOT_FOUND);
 		

@@ -1,27 +1,27 @@
 <%@include file="../../WEB-INF/navigation/Config.jsp"%>
-
+<%@include file="../../WEB-INF/navigation/Header.jsp"%>
 
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<%@include file="../../WEB-INF/navigation/Header.jsp"%>
-
 
 <head>
 <title>PageNotFound</title>
 </head>
-<body>
 
 <body>
 	<c:set var="fullName" value="${sharedId}" />
 	<h1>s1: ${fullName}</h1>
 	<h1>s2: ${fullName}</h1>
-	<h1>s3: <c:out value= "${fullName}"></c:out></h1>
-<%-- 	<h1>s4: <c:out value= "${UrlConstants.}"></c:out></h1> --%>
-
-<%-- 	<p> <c:out value= "${fullName}"></c:out> </p> --%>
-	<p align="center">PageNotFound NEW</p>
+	<h1>
+		s3:
+		<c:out value="${fullName}"></c:out>
+	</h1>
+	<p align="center">
+	PageNotFound 
+	<c:out value="${requestScope['javax.servlet.forward.request_uri']}"></c:out>
+	</p>
 </body>
-
+</html>
 <%-- <% String sharedS = (String)request.getAttribute("sharedId"); %> --%>
 <%-- 	<h1>s0: <%= sharedS %></h1> --%>
 
@@ -42,7 +42,7 @@
 <!-- //  String shared2 = (String)this.getServletConfig().getServletContext().getAttribute("sharedId"); -->
 
 
-</html>
+
 
 
 

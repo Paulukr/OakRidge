@@ -23,9 +23,9 @@ public class AddBookCommand implements Command {
 			// find book return
 			// add book
 		} catch (InvalidInputException e) {
-			return UrlConstants.BOOK_ADD_ERROR;
+			return UrlConstants.R_BOOK_ADD_ERROR;
 		}
-		return UrlConstants.BOOK_ADD_SUCCESS;
+		return UrlConstants.R_BOOK_ADD_SUCCESS;
 	}
 
 }

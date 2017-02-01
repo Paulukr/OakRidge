@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 
 import org.apache.log4j.Logger;
 
-import library.controller.command.ErrorList;
+import library.controller.ErrorList;
 import library.dao.DaoConstants;
 import library.model.dao.declaration.AuthorDao;
 

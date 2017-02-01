@@ -17,11 +17,11 @@ public class HttpRequestDataProcessor {
 	public static Matcher YEAR_MATCHER = Pattern.compile(SENTENCE_REGEX).matcher("");
 	
 	
-	public static String getString(HttpServletRequest request, String attributeName, Matcher matcher) throws InvalidInputException {
-		Object rawData = request.getSession().getAttribute(attributeName);
+	public static String getString(HttpServletRequest request, String parameterName, Matcher matcher) throws InvalidInputException {
+		String rawData = request.getParameter(parameterName);
 		if(rawData == null)
 			return null;
-		String data = String.valueOf(rawData);	
+		String data = rawData;//String.valueOf(rawData);	
 		matcher.reset(data);
 		if(!matcher.matches())
 			throw new InvalidInputException(data + "\ndoesn't match " + matcher.pattern().toString());

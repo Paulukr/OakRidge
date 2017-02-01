@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import org.apache.log4j.Logger;
 
-import library.controller.command.ErrorList;
+import library.controller.ErrorList;
 import library.dao.DaoConstants;
 import library.model.dao.declaration.BookTitleDao;
 import library.model.entity.Author;

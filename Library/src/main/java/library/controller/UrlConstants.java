@@ -26,7 +26,7 @@ public class UrlConstants {
     public static final String STUDENT_EDIT = PREFIX + "/student/edit";
     public static final String UNFOLLOW = PREFIX + "/unfollow";
     public static final String COURSE_DELETE = COURSE + "delete";
-    public static final String USER = "/user";
+//    public static final String USER = "/user";
 //    public static final String PAGE_NOT_FOUND = "/notFound";
     public static final String STUDENTS_COURSE_GET = STUDENTS + "/?course=";
     public static final String COURSE_EDIT_GET = COURSE + "?id=";
@@ -39,23 +39,35 @@ public class UrlConstants {
 
     
     
-    public static final String HOME = "/index.jsp";
+    public static final String HOME = "/Library/index.jsp";
     
-    public static final String LIBRARIAN = "/Library/map/librarian";
     
-//    public static final String USER = "/user";
+    public static final String COMMAND = "/map";
+    public static final String LIBRARIAN = "/librarian";
+    public static final String USER = "/Library/map/user";
     
     public static final String BOOK = "/book";
     public static final String VOLUME = "/volume";
     public static final String ADD = "/add";
-    public static final String BOOK_ADD = LIBRARIAN + BOOK + ADD;
-    public static final String VOLUME_ADD = LIBRARIAN + VOLUME + ADD;
-   
+    public static final String SEARCH = "/SEARCH";
+	public static final String ADD_FORM = "/add_form";
+	
+    public static final String C_BOOK_ADD =COMMAND + LIBRARIAN + BOOK + ADD;
+    public static final String C_GET_BOOK_ADD_FORM = COMMAND + LIBRARIAN + BOOK+ ADD_FORM;
+    public static final String C_VOLUME_ADD = COMMAND + LIBRARIAN + VOLUME + ADD;
+    public static final String C_BOOK_SEARCH = COMMAND + LIBRARIAN + BOOK + SEARCH;
     
-    public static final String BOOK_ADD_SUCCESS = "/WEB-INF/responces/AddBook.jsp";
-    public static final String BOOK_ADD_ERROR = "/WEB-INF/responces/AddBookError.jsp";
+    public static final String RESOURCE = "/WEB-INF";
+    public static final String RESPONSES = "/responses";
+    public static final String VIEWS = "/views";
+    public static final String R_BOOK_ADD = RESOURCE + VIEWS + "/AddBook.jsp";
+    public static final String R_BOOK_ADD_SUCCESS = RESOURCE + RESPONSES + "/AddBookSuccess.jsp";
+    public static final String R_BOOK_ADD_ERROR = RESOURCE + RESPONSES + "AddBookError.jsp";
     
-    public static final String PAGE_NOT_FOUND = "/WEB-INF/responces//PageNotFound.jsp";
+
+    
+//    public static final String PAGE_NOT_FOUND = "/WEB-INF/responses/PageNotFound.jsp";
+    public static final String PAGE_NOT_FOUND = RESOURCE + RESPONSES + "/PageNotFound.jsp";
     
 
     

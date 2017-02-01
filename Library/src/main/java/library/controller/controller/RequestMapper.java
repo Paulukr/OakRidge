@@ -16,11 +16,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Main servlet. All of requests go here.
- *
- * @author Anastasia Milinchuk
-*/
+
+@SuppressWarnings("unused")
 @WebServlet("/map/*")
 public class RequestMapper extends HttpServlet {
 	CommandMapper commandMapper = new CommandMapper();
@@ -38,19 +35,32 @@ public class RequestMapper extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//        response.getOutputStream().println("<p>doPost</p>");
+//    	
+//    	Enumeration<String> resultE = request.getAttributeNames();
+//    	String resultA = String.valueOf(request.getParameter("first_name"));
+    	
     	Command command = commandMapper.getGetCommand(request.getRequestURI());
-        @SuppressWarnings("unused")
-		String forwardPage = command.execute(request, response);
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+ 
+    	String shared = "sharedValueGET";
+    	request.setAttribute("sharedId", shared); // add to request
+    	
+		String result = command.execute(request, response);
+        request.getRequestDispatcher(result).forward(request, response);
+    	System.out.println(request.getContextPath());
+    	System.out.println(request.getContextPath());
+//        request.getRequestDispatcher(UrlConstants.PAGE_NOT_FOUND).forward(request, response);
     }
-//  if (forwardPage != null) {
-//  request.getRequestDispatcher(forwardPage).forward(request, response);
-//}
-/*        response.sendRedirect("http://localhost:8080/Library/NewFile.html");
-response.sendRedirect("/Library/NewFile.html");
-response.sendRedirect("/Library/index.jsp");
-request.getRequestDispatcher("/NewFile.html").forward(request, response);
+
+/*   
+ *   if (forwardPage != null) {
+ *		request.getRequestDispatcher(forwardPage).forward(request, response);
+ *		}
+ * 		response.getOutputStream().println("<p>doPost</p>");
+ *      response.sendRedirect("http://localhost:8080/Library/NewFile.html");
+		response.sendRedirect("/Library/NewFile.html");
+		response.sendRedirect("/Library/index.jsp");
+		request.getRequestDispatcher("/NewFile.html").forward(request, response);
+*       response.getOutputStream().println("<p>doPost</p>");
 */
 
     /**
@@ -65,43 +75,18 @@ request.getRequestDispatcher("/NewFile.html").forward(request, response);
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-
     	Enumeration<String> resultE = request.getAttributeNames();
     	String resultA = String.valueOf(request.getAttribute("first_name"));
     	
     	Command command = commandMapper.getPostCommand(request.getRequestURI());
 
-    	
-    	
     	String result = command.execute(request, response);
-//        response.getOutputStream().println("<p>doPost</p>");
-        
-    	String shared = "sharedValue";
+     
+    	String shared = "sharedValuePOST";
     	request.setAttribute("sharedId", shared); // add to request
+    	
     	String resultB = String.valueOf(request.getAttribute("sharedId"));
     	
         request.getRequestDispatcher(result).forward(request, response);
-    }
-
-    /**
-     * Retrieve string with url to page.
-     * Execute command, which equal to request url.
-     *
-     * @param request is request from client
-     * @param response is response to client
-     * @param command is command that call client
-     * @return page url
-     * @throws ServletException
-     * @throws IOException
-     */
-    protected String doRequest(HttpServletRequest request, HttpServletResponse response, Command command)
-            throws ServletException, IOException {
-        try {
-
-            return "normal post";
-        } catch (Exception e) {
-
-            return "Exception";
-        }
     }
 }

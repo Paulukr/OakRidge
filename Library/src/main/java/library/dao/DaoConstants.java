@@ -7,6 +7,9 @@ public class DaoConstants {
     		+ " VALUES(?, ?, ?, ?)";
     public static final String BOOK_TITLE_SELECT = " SELECT Title_name, Type_no, Title_year_published, Author_no  FROM Title_table"
     		+ " WHERE Title_no = 5";
+    
+    public static final String BOOK_TYPES_GET = "SELECT Type_description FROM Type_table ORDER BY Type_no ASC";
+
 //    public static final String CREATE = "INSERT INTO Title_table (Title_no) " 
 //    		+ " VALUES(? ) ";
     

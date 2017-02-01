@@ -6,7 +6,7 @@ public class BookTitle {
 	private String type;
 	private int typeNo;
 	private int publishedYear;
-	private java.util.List<Author> authors;
+	private java.util.List<Author> authors = new java.util.ArrayList<>();
 
 	public BookTitle() {
 

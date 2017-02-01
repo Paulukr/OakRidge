@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -9,6 +7,6 @@
 </head>
 <%@include file="Header.jsp"%>
 <body>
-<p align="left"><a href="AddBook.jsp"><b>Add new book</b></a> </p>
+<p align="left"><a href="<c:out value="${pageContext.request.contextPath}${UrlConstants.C_GET_BOOK_ADD_FORM}"></c:out>"><b>Add new book</b></a> </p>
 </body>
 </html>
