@@ -10,4 +10,5 @@ public class ErrorList {
 	public static final String DuplicateBooks = "Duplicate books" + ersx;
 	public static final String AbsentResultSet = "Absent result set from prepared statement" + ersx;
 	public static final String SelectBook = "Select book";
+	public static final String ADD_BOOK = "ADD_BOOK";
 }

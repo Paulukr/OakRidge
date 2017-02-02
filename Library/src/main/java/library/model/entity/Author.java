@@ -19,7 +19,7 @@ public class Author {
 		this.databaseID = databaseID;
 	}
 
-	public String getFullName() {
+	public String getName() {
 		return fullName;
 	}
 

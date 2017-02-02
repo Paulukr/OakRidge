@@ -3,6 +3,7 @@ package library.model.entity;
 public class BookTitle {
 	private String title;
 
+	private int databaseID;
 	private String type;
 	private int typeNo;
 	private int publishedYear;
@@ -65,4 +66,12 @@ public class BookTitle {
 		this.typeNo = typeNo;
 	}
 
+	public int getDatabaseID() {
+		return databaseID;
+	}
+
+	public void setDatabaseID(int databaseID) {
+		this.databaseID = databaseID;
+	}
+	
 }

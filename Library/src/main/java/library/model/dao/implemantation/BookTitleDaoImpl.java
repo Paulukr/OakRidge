@@ -18,7 +18,7 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 	@Override
 	public Integer straitLookUp(String title, int[] authorsList) {
 			try {
-				init();
+				init();//TODO
 				//SELECT Title_no FROM title_table WHERE Title_name = 'California1' AND Author_no = 1;
 //				prepareStatement(DaoConstants.AUTHOR_GET_NO);
 				prepareStatement("SELECT Title_no FROM title_table WHERE Title_name = ? AND Author_no = ? ");
@@ -44,7 +44,7 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 			}
 	}
 	@Override
-	public BookTitle geBookTitle(int databaseID){
+	public BookTitle getBookTitle(int databaseID){
 		BookTitle bookTitle = new BookTitle();
 		try {
 			prepareStatement(DaoConstants.BOOK_TITLE_ADD);
@@ -72,15 +72,15 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 	}
 	
 	@Override
-	public boolean addBookTitle(BookTitle book) {
+	public Integer addBookTitle(BookTitle book) throws SQLException {
 //		if (straitLookUp(book.getTitle(),
 //				 book.getAuthors().stream().mapToInt(Author::getDatabaseID).toArray()) > 0) {
 //			return false;		
 //		}
         try {
-        	init();
+        	init();//TODO
         	//INSERT INTO title_table ( Title_name, Type_no, Title_year_published, Author_no)
-        	prepareStatement(DaoConstants.BOOK_TITLE_ADD);
+        	prepareStatementKeyGeneration(DaoConstants.BOOK_TITLE_ADD);
 //        	prepareStatement("INSERT INTO title_table (Title_no) VALUES (? )");
 //        	"SELECT * FROM title_table"
 
@@ -90,14 +90,24 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
             preparedStatement.setInt(4, 1);
             logger.error("\n sql \n" + DaoConstants.BOOK_TITLE_ADD + " ");
             preparedStatement.toString();
-            preparedStatement.executeUpdate();
+            int affectedRows = preparedStatement.executeUpdate();
+            if (affectedRows == 0) {
+                throw new SQLException("Creating user failed, no rows affected.");
+            }
+            try (ResultSet generatedKeys = preparedStatement.getGeneratedKeys()) {
+                if (generatedKeys.next()) {
+                    book.setDatabaseID(generatedKeys.getInt(1));
+                }
+                else {
+                    throw new SQLException("Creating user failed, no ID obtained.");
+                }
+            }
             preparedStatement.close();
-        } catch (Exception e) {
+        } catch (SQLException e) {
             logger.error(ErrorList.InsertTitle, e);
-            throw new RuntimeException(ErrorList.InsertTitle, e);
+            throw new SQLException(ErrorList.InsertTitle, e);
         }
-
-		return false;
+		return book.getDatabaseID();
 	}
 
 }

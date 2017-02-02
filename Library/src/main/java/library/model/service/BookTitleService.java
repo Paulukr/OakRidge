@@ -6,6 +6,7 @@ import library.controller.ViewConstants;
 import library.model.entity.BookTitle;
 
 public class BookTitleService {
+	
 	public BookTitle getAddBookTitleRequestData(HttpServletRequest request) throws InvalidInputException {
 
 		BookTitle bookTitle = new BookTitle();

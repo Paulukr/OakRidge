@@ -1,5 +1,7 @@
 package library.model.dao.declaration;
 
+import java.sql.SQLException;
+
 import library.model.entity.BookTitle;
 
 public interface BookTitleDao {
@@ -11,6 +13,6 @@ public interface BookTitleDao {
 	
 	//advanced lookUp
 	public Integer straitLookUp(String title, int[] authorsList);
-	public boolean addBookTitle(BookTitle bookTitle);
-	BookTitle geBookTitle(int databaseID);
+	public Integer addBookTitle(BookTitle bookTitle) throws SQLException;
+	BookTitle getBookTitle(int databaseID);
 }

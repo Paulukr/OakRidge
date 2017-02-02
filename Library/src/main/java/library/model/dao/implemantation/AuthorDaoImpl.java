@@ -15,7 +15,7 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 	@Override
 	public boolean check_availability(String fullName) {
 		try {
-			init();
+			init();//TODO
 			prepareStatement(DaoConstants.AUTHOR_CHECK_AVAILABILITY);
 			// (Author_name)
 			preparedStatement.setString(1, fullName);
@@ -45,7 +45,7 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 	@Override
 	public Integer getNo(String fullName) {
 		try {
-			init();
+			init();// TODO remove
 			prepareStatement(DaoConstants.AUTHOR_GET_NO);
 			// (Author_name)
 			preparedStatement.setString(1, fullName);

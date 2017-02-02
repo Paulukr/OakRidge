@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 import org.apache.log4j.Logger;
 
@@ -32,11 +33,20 @@ public abstract class AbstractDao {
 		}
 	}
 	public void prepareStatement(String expression) throws SQLException {
-    
 		try {
 			if(connection == null)
 				init();
 			preparedStatement = connection.prepareStatement(expression);
+		} catch (SQLException e) {
+            logger.error(ErrorList.DataSourse, e);
+            throw new SQLException(ErrorList.PreparingStatement, e);
+		}
+	}
+	public void prepareStatementKeyGeneration(String expression) throws SQLException {
+		try {
+			if(connection == null)
+				init();
+			preparedStatement = connection.prepareStatement(expression, Statement.RETURN_GENERATED_KEYS);
 		} catch (SQLException e) {
             logger.error(ErrorList.DataSourse, e);
             throw new SQLException(ErrorList.PreparingStatement, e);

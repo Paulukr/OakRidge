@@ -33,7 +33,7 @@ public class Librarian {
 	public boolean addBookTitle(String title, String type, int tipeNo, int publishedYear, String[] authors) {
 		// get authors
 		java.util.List<Author> authorsList = findOrAddAuthors(authors);
-		
+
 		Integer bookITitleID =  findBookTitleID(title, authorsList.stream().mapToInt(a -> a.getDatabaseID()).toArray());
 		if (bookITitleID != null) {
 			return false;
@@ -44,30 +44,48 @@ public class Librarian {
 		// get authors id (names)
 		// get book id (name, authors)
 
-		
+
 		// advanced lookUp
 
 		BookTitle bookTitle = new BookTitle(title, type, tipeNo, publishedYear, authorsList);
-		
-
-		
-		
 		return false;
+	}
+	public Integer tryAddBookTitle(BookTitle bookTitle) throws SQLException {
+		Integer bookITitleID =  findBookTitleID(bookTitle);
+		if (bookITitleID != null)
+			return bookITitleID;
+		else
+			return -addBookTitle(bookTitle);
+	}
+	protected Integer addBookTitle(BookTitle bookTitle) throws SQLException {
+		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
+		return bookTitleDao.addBookTitle(bookTitle);
 	}
 	public String[] getBookTypes() throws SQLException {
 		BookTypeDao bookTypeDao = new BookTypeDaoImpl();
 		return bookTypeDao.getBookTypes();
 	}
+	public BookTitle getBookTitleByID(int id) {
+		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
+		return bookTitleDao.getBookTitle(id);
+	}
+	public Integer findBookTitleID(BookTitle bookTitle) {
+		java.util.List<Author> authorsList = findOrAddAuthors(
+				bookTitle.getAuthors().stream().map(Author::getName).toArray(String[]::new));
+		bookTitle.setAuthors(authorsList);
+		return findBookTitleID(bookTitle.getTitle(),
+				bookTitle.getAuthors().stream().mapToInt(Author::getDatabaseID).toArray());
+	}
 	public Integer findBookTitleID(String titleName, int...authors) {
 		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
 		return bookTitleDao.straitLookUp(titleName, authors);
 	}
-	
+
 	public BookTitle geBookTitle(int databaseID) {
 		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
-		return bookTitleDao.geBookTitle(databaseID);
+		return bookTitleDao.getBookTitle(databaseID);
 	}
-	
+
 	public Author findOrAddAuthor(String authorName) {
 		AuthorDao authorDao = new AuthorDaoImpl();
 		if (!authorDao.check_availability(authorName))
@@ -87,7 +105,7 @@ public class Librarian {
 			if (!authorDao.check_availability(authorName))
 				authorDao.addAuthor(authorName);
 			int id = authorDao.getNo(authorName);
-			Author author = new Author();
+			Author author = new Author();//TODO constructor 
 			author.setDatabaseID(id);
 			author.setFullName(authorName);
 			authorsList.add(author);
