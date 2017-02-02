@@ -2,3 +2,8 @@
 1485953700382	Rename local variable 'URI'
 1485958872940	Copy file
 1485959103790	Copy file
+1485961219910	Rename method 'getFullName'
+1485962304291	Rename method 'geBookTitle'
+1485962542770	Rename method 'addBookTitle'
+1485962880181	Change method 'addBookTitle'
+1485964787912	Rename local variable 'bookTitle'
