@@ -1,0 +1,39 @@
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+<%@include file="../../WEB-INF/navigation/Header.jsp"%>
+
+<%@page import="java.io.FileNotFoundException"%>
+<%@page import="java.io.File"%>
+
+<%@page import="library.model.entity.BookTitle"%>
+
+
+
+<html>
+<head>
+<title>Book Not Added</title>
+</head>
+<body>
+	<h2>Book Not Added</h2>
+
+	<p>
+		<c:set var="errorMessageAttributeName"
+			value="${ViewConstants.ERROR_MESSAGE}" />
+		<c:set var="errorMessage"
+			value="${requestScope[errorMessageAttributeName]}" />
+	<h1>s1: ${error_message}</h1>
+	<p>
+			<c:set var="title_instanseAttributeName"
+			value="${ViewConstants.TITLE_INSTANSE}" />
+		<c:set var="title_instanse"
+			value="${requestScope[title_instanseAttributeName]}" />
+	<c:if test="${title_instanse != null}">
+<%-- 			<h3>s2: ${(BookTitle)title_instanse.getTitle()}</h3> --%>
+			<h3>s3: ${title_instanse.title}</h3>
+						<h3>s4: ${title_instanse[title]}</h3>
+	</c:if>
+
+
+	<p> <a href="NewFile.html">html file in webapps</a>
+	<p>Current time is: <%=new java.util.Date()%></p>
+</body>
+</html>
