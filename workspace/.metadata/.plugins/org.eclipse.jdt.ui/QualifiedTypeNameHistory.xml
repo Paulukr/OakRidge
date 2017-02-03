@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="library.model.dao.declaration.BookTypeDao"/>
+<fullyQualifiedTypeName name="library.model.dao.implemantation.BookTypeDaoImpl"/>
+<fullyQualifiedTypeName name="library.controller.command.lib_commands.GetBookFormCommand"/>
+<fullyQualifiedTypeName name="java.beans.PropertyVetoException"/>
+<fullyQualifiedTypeName name="library.controller.UrlConstants"/>
+<fullyQualifiedTypeName name="org.postgresql.util.PSQLException"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="library.model.entity.Librarian"/>
+<fullyQualifiedTypeName name="library.controller.ViewConstants"/>
+<fullyQualifiedTypeName name="library.model.entity.BookTitle"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
+<fullyQualifiedTypeName name="library.model.dao.DaoConstants"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="library.controller.ErrorList"/>
+</qualifiedTypeNameHistroy>

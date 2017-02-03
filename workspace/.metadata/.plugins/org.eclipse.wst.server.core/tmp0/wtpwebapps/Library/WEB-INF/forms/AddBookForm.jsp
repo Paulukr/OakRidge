@@ -18,18 +18,18 @@
 	<form
 		action="${pageContext.request.contextPath}${UrlConstants.C_BOOK_ADD}"
 		method="POST">
-		Book Title: <input type="text" name="${ViewConstants.TITLE_NAME}"
+		Book Title: <input type="text" name="${ViewConstants.TITLE_NAME}" value="Sherlock"
 			size="40"> <br /> 
 		Book Category: <select
-			name="${ViewConstants.TITLE_TYPE}">
-			<c:forEach items="${titleList}" var="s">
-				<option value="${s}">${s}</option>
+			name="${ViewConstants.TITLE_TYPE_NO}">
+			<c:forEach items="${titleList}" var="s" varStatus="loop">
+				<option value="${loop.index}">${s}</option>
 			</c:forEach>
 		</select> <br /> 
 		Year Published: <input type="text"
-			name="${ViewConstants.TITLE_YEAR}"><br /> 
+			name="${ViewConstants.TITLE_YEAR}" value="2000"><br /> 
 		Author: <input
-			type="text" name="${ViewConstants.TITLE_AUTHOR}"> <br /> <input
+			type="text" name="${ViewConstants.TITLE_AUTHOR}" value="Man"> <br /> <input
 			type="submit" value="Submit" />
 	</form>
 </body>

@@ -34,7 +34,13 @@ public class Librarian {
 		// get authors
 		java.util.List<Author> authorsList = findOrAddAuthors(authors);
 
-		Integer bookITitleID =  findBookTitleID(title, authorsList.stream().mapToInt(a -> a.getDatabaseID()).toArray());
+		Integer bookITitleID = null;
+		try {
+			bookITitleID = findBookTitleID(title, authorsList.stream().mapToInt(a -> a.getDatabaseID()).toArray());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		if (bookITitleID != null) {
 			return false;
 		}
@@ -65,25 +71,20 @@ public class Librarian {
 		BookTypeDao bookTypeDao = new BookTypeDaoImpl();
 		return bookTypeDao.getBookTypes();
 	}
-	public BookTitle getBookTitleByID(int id) {
+	public BookTitle getBookTitleByID(int id) throws SQLException {
 		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
 		return bookTitleDao.getBookTitle(id);
 	}
-	public Integer findBookTitleID(BookTitle bookTitle) {
+	public Integer findBookTitleID(BookTitle bookTitle) throws SQLException {
 		java.util.List<Author> authorsList = findOrAddAuthors(
 				bookTitle.getAuthors().stream().map(Author::getName).toArray(String[]::new));
 		bookTitle.setAuthors(authorsList);
 		return findBookTitleID(bookTitle.getTitle(),
 				bookTitle.getAuthors().stream().mapToInt(Author::getDatabaseID).toArray());
 	}
-	public Integer findBookTitleID(String titleName, int...authors) {
+	public Integer findBookTitleID(String titleName, int...authors) throws SQLException {
 		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
 		return bookTitleDao.straitLookUp(titleName, authors);
-	}
-
-	public BookTitle geBookTitle(int databaseID) {
-		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
-		return bookTitleDao.getBookTitle(databaseID);
 	}
 
 	public Author findOrAddAuthor(String authorName) {

@@ -9,7 +9,7 @@ import org.hamcrest.number.IsCloseTo;
 import org.junit.Before;
 import org.junit.Test;
 
-import library.dao.ExampleQuery;
+import library.model.dao.ExampleQuery;
 
 public class ExampleQueryTest {
 

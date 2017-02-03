@@ -6,14 +6,7 @@ public class Author {
 
 	public Author() {
 	}
-	public Author(String fullName) {
-		this.fullName = fullName;
-	}
-
-	public Author(int databaseID) {
-		this.databaseID = databaseID;
-	}
-
+	
 	public Author(String fullName, int databaseID) {
 		this.fullName = fullName;
 		this.databaseID = databaseID;

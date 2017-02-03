@@ -7,3 +7,10 @@
 1485962542770	Rename method 'addBookTitle'
 1485962880181	Change method 'addBookTitle'
 1485964787912	Rename local variable 'bookTitle'
+1486039672716	Rename package 'library.dao'
+1486039823405	Rename field 'TITLE_TYPE'
+1486048492316	Rename local variable 'book'
+1486049082429	Change method 'geBookTitle'
+1486144731797	Copy file
+1486152839413	Rename resource 'BookTitleItem.jsp'
+1486153412837	Move 'BookTitleList.jsp' to 'forms'

@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import org.apache.log4j.Logger;
 
 import library.controller.ErrorList;
-import library.dao.DaoConstants;
+import library.model.dao.DaoConstants;
 import library.model.dao.declaration.BookTitleDao;
 import library.model.entity.Author;
 import library.model.entity.BookTitle;
@@ -16,13 +16,13 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
     private static final Logger logger = Logger.getLogger(BookTitleDaoImpl.class);
 
 	@Override
-	public Integer straitLookUp(String title, int[] authorsList) {
+	public Integer straitLookUp(String title, int[] authorsList) throws SQLException {
 			try {
 				init();//TODO
 				//SELECT Title_no FROM title_table WHERE Title_name = 'California1' AND Author_no = 1;
 //				prepareStatement(DaoConstants.AUTHOR_GET_NO);
-				prepareStatement("SELECT Title_no FROM title_table WHERE Title_name = ? AND Author_no = ? ");
-
+				
+				prepareStatement(DaoConstants.BOOK_TITLE_FIND_SIGNATURE);
 				// (Title_name, AND Author_no)
 				preparedStatement.setString(1, title);
 				preparedStatement.setInt(2, authorsList[0]);
@@ -30,24 +30,30 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 
 				if (resultSet.next()) {
 					int result = resultSet.getInt(1);
-					if(resultSet.next())
-						throw new Exception(ErrorList.DuplicateBooks);
+					String duplicateList = null; 
+					while(resultSet.next()){
+						duplicateList += " " + result;
+						result = resultSet.getInt(1);
+					}
+					if(duplicateList != null)
+						throw new SQLException(ErrorList.DuplicateBooks + duplicateList );
 					preparedStatement.close();
 					return result;
 				} else {
 					preparedStatement.close();
 					return null;
 				}
-			} catch (Exception e) {
+			} catch (SQLException e) {
 				logger.error(ErrorList.SelectBook, e);
-				throw new RuntimeException(ErrorList.SelectAuthor, e);
+				throw new SQLException(ErrorList.SelectAuthor, e);
 			}
 	}
 	@Override
-	public BookTitle getBookTitle(int databaseID){
+	public BookTitle getBookTitle(int databaseID) throws SQLException{
 		BookTitle bookTitle = new BookTitle();
 		try {
-			prepareStatement(DaoConstants.BOOK_TITLE_ADD);
+			prepareStatement(DaoConstants.BOOK_TITLE_SELECT);
+			preparedStatement.setInt(1, databaseID);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			if (!resultSet.next())
 				return null;
@@ -64,9 +70,9 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 //			}
 				
 			
-		} catch (Exception e) {
+		} catch (SQLException e) {
             logger.error(ErrorList.InsertTitle, e);
-            throw new RuntimeException(ErrorList.InsertTitle, e);
+            throw new SQLException(ErrorList.InsertTitle, e);
 		}
 		return bookTitle;
 	}
@@ -80,7 +86,8 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
         try {
         	init();//TODO
         	//INSERT INTO title_table ( Title_name, Type_no, Title_year_published, Author_no)
-        	prepareStatementKeyGeneration(DaoConstants.BOOK_TITLE_ADD);
+//        	prepareStatementKeyGeneration(DaoConstants.BOOK_TITLE_ADD);
+        	prepareStatement(DaoConstants.BOOK_TITLE_ADD);
 //        	prepareStatement("INSERT INTO title_table (Title_no) VALUES (? )");
 //        	"SELECT * FROM title_table"
 
@@ -89,12 +96,9 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
             preparedStatement.setInt(3, book.getPublishedYear());
             preparedStatement.setInt(4, 1);
             logger.error("\n sql \n" + DaoConstants.BOOK_TITLE_ADD + " ");
-            preparedStatement.toString();
-            int affectedRows = preparedStatement.executeUpdate();
-            if (affectedRows == 0) {
-                throw new SQLException("Creating user failed, no rows affected.");
-            }
-            try (ResultSet generatedKeys = preparedStatement.getGeneratedKeys()) {
+            
+            
+            try (ResultSet generatedKeys = preparedStatement.executeQuery()) {
                 if (generatedKeys.next()) {
                     book.setDatabaseID(generatedKeys.getInt(1));
                 }

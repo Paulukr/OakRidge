@@ -2,6 +2,7 @@ package libray.test.model.dao;
 
 import static org.junit.Assert.*;
 
+import java.sql.SQLException;
 import java.util.Arrays;
 
 import org.junit.Before;
@@ -26,25 +27,64 @@ public class BookTitleDaoImplTest {
 	public void testStraitLookUpStringIntegerArray() {
 	
 
-		int[] authorsList =  {1,2,3};
+		int[] authorsList =  {1};
 //		bookTitleDaoImpl.straitLookUp("California1", authorsList);
-		assertEquals(null, bookTitleDaoImpl.straitLookUp("California10", authorsList));
-		assertEquals(Integer.valueOf(1), bookTitleDaoImpl.straitLookUp("California1", authorsList));
-		assertEquals(Integer.valueOf(2), bookTitleDaoImpl.straitLookUp("California2", authorsList));
-//		assertEquals(Integer.valueOf(15), bookTitleDaoImpl.straitLookUp("hello", authorsList ));
+		try {
+			assertEquals(null, bookTitleDaoImpl.straitLookUp("California10", authorsList));
+			assertEquals(Integer.valueOf(1), bookTitleDaoImpl.straitLookUp("California1", authorsList));
+			assertEquals(Integer.valueOf(2), bookTitleDaoImpl.straitLookUp("California2", authorsList));
+			assertEquals(Integer.valueOf(2), bookTitleDaoImpl.straitLookUp("California2", authorsList));
+//			assertEquals(Integer.valueOf(15), bookTitleDaoImpl.straitLookUp("hello", authorsList ));
+		} catch (SQLException e) {
+			fail(e.toString());
+		}
+
+
 		
 	}
 
 	@Test
 	public void testAddBookTitle() {
-//		fail("Not yet implemented");
+
 	
 		Author author = new Author();
 		author.setDatabaseID(15);
 		author.setFullName("Author 15");
 		java.util.List<Author> authors = Arrays.asList(author);
 		BookTitle book = new BookTitle("hello", "study", 1, 2000,  authors);
-		bookTitleDaoImpl.addBookTitle(book);
+		try {
+			bookTitleDaoImpl.addBookTitle(book);
+		} catch (SQLException e) {
+			fail(e.toString());
+		}
+	}
+	
+	@Test
+	public void testGetBookTitle() {
+	
+		Author author = new Author("Author", 0);
+		java.util.List<Author> authors = Arrays.asList(author);
+		BookTitle book1 = new BookTitle("hello2", "study", 1, 2000,  authors);
+		Integer bookId = 0;
+		BookTitle book2;
+		try {
+			bookId = bookTitleDaoImpl.addBookTitle(book1);
+			book2 = bookTitleDaoImpl.getBookTitle(bookId);
+			// be aware of trailing spaces !
+			assertEquals(book1.getTitle().toString(), book2.getTitle().toString());
+		} catch (SQLException e) {
+			fail(e.toString());
+		}
+		
+		book1 = new BookTitle("Привіт", "study", 1, 2000,  authors);
+		bookId = 0;
+			try {
+			bookId = bookTitleDaoImpl.addBookTitle(book1);
+			book2 = bookTitleDaoImpl.getBookTitle(bookId);
+			assertEquals(book1.getTitle().toString(), book2.getTitle().toString());
+		} catch (SQLException e) {
+			fail(e.toString());
+		}
 	}
 
 }

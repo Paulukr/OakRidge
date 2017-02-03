@@ -1,6 +1,10 @@
 package library.controller.command.lib_commands;
 
+import java.awt.print.Book;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -32,19 +36,21 @@ public class AddBookCommand implements Command {
 			Integer bookId = librarian.tryAddBookTitle(newBookTitle);
 			if (bookId < 0) {
 				bookId = -bookId;
-				BookTitle bookTitle = librarian.geBookTitle(bookId);
-	            request.setAttribute(ViewConstants.TITLE_INSTANSE, bookTitle);
+				BookTitle bookTitle = librarian.getBookTitleByID(bookId);
+	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
+	            request.setAttribute(ViewConstants.ERROR_MESSAGE, null);
 	    		return UrlConstants.R_BOOK_ADD_SUCCESS;
 			}else {
-				BookTitle bookTitle = librarian.geBookTitle(bookId);
-	            request.setAttribute(ViewConstants.TITLE_INSTANSE, bookTitle);
+				BookTitle bookTitle = librarian.getBookTitleByID(bookId);
+	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
+	            request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_ALREADY_ADDED);
 				return UrlConstants.R_BOOK_ADD_ERROR;
 			}
 			// find book return
 			// add book
 		} catch (InvalidInputException | SQLException e) {
             logger.error(ErrorList.ADD_BOOK, e);
-            request.setAttribute(ViewConstants.TITLE_INSTANSE, null);
+            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {});
             request.setAttribute(ViewConstants.ERROR_MESSAGE, e.getMessage());
 			return UrlConstants.R_BOOK_ADD_ERROR;
 		}

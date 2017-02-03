@@ -12,7 +12,7 @@ public interface BookTitleDao {
 	//get book id (name, authors)
 	
 	//advanced lookUp
-	public Integer straitLookUp(String title, int[] authorsList);
+	public Integer straitLookUp(String title, int[] authorsList) throws SQLException;
 	public Integer addBookTitle(BookTitle bookTitle) throws SQLException;
-	BookTitle getBookTitle(int databaseID);
+	BookTitle getBookTitle(int databaseID) throws SQLException;
 }

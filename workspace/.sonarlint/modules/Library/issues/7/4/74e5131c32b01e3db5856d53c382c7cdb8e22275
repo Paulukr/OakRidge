@@ -1,0 +1,15 @@
+
+Q
+squid:S106?";Replace this usage of System.out or System.err by a logger.(ËÀ
+Q
+squid:S106N";Replace this usage of System.out or System.err by a logger.(ğÑ©ú
+V
+squid:S106A";Replace this usage of System.out or System.err by a logger.(ì£§³ùÿÿÿÿ
+V
+squid:S106B";Replace this usage of System.out or System.err by a logger.(·Ø–Åüÿÿÿÿ
+Q
+squid:S106G";Replace this usage of System.out or System.err by a logger.(ñÀ×ê
+V
+squid:S106H";Replace this usage of System.out or System.err by a logger.(·Òÿğúÿÿÿÿ
+?squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Asquid:S1166L"%Either log or rethrow this exception.(¼Ôîàùÿÿÿÿ

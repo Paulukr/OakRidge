@@ -2,8 +2,10 @@ package library.controller.controller;
 import org.apache.log4j.Logger;
 
 import library.controller.UrlConstants;
+import library.controller.ViewConstants;
 import library.controller.command.Command;
 import library.controller.command.CommandMapper;
+import library.model.entity.BookTitle;
 
 import java.io.IOException;
 import java.util.Enumeration;
@@ -35,23 +37,18 @@ public class RequestMapper extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-//    	
-//    	Enumeration<String> resultE = request.getAttributeNames();
-//    	String resultA = String.valueOf(request.getParameter("first_name"));
-    	
-    	Command command = commandMapper.getGetCommand(request.getRequestURI());
- 
+    	String requestUri = request.getRequestURI();
+    	Command command = commandMapper.getGetCommand(requestUri);
     	String shared = "sharedValueGET";
     	request.setAttribute("sharedId", shared); // add to request
-    	
+
 		String result = command.execute(request, response);
+    	inspect(request);
         request.getRequestDispatcher(result).forward(request, response);
     	System.out.println(request.getContextPath());
-    	System.out.println(request.getContextPath());
-//        request.getRequestDispatcher(UrlConstants.PAGE_NOT_FOUND).forward(request, response);
     }
 
-/*   
+/*
  *   if (forwardPage != null) {
  *		request.getRequestDispatcher(forwardPage).forward(request, response);
  *		}
@@ -60,7 +57,7 @@ public class RequestMapper extends HttpServlet {
 		response.sendRedirect("/Library/NewFile.html");
 		response.sendRedirect("/Library/index.jsp");
 		request.getRequestDispatcher("/NewFile.html").forward(request, response);
-*       response.getOutputStream().println("<p>doPost</p>");
+		request.getRequestDispatcher(UrlConstants.PAGE_NOT_FOUND).forward(request, response);
 */
 
     /**
@@ -74,19 +71,29 @@ public class RequestMapper extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
-    	Enumeration<String> resultE = request.getAttributeNames();
-    	String resultA = String.valueOf(request.getAttribute("first_name"));
-    	
-    	Command command = commandMapper.getPostCommand(request.getRequestURI());
-
-    	String result = command.execute(request, response);
-     
     	String shared = "sharedValuePOST";
     	request.setAttribute("sharedId", shared); // add to request
-    	
+    	String requestUri = request.getRequestURI();
+    	Command command = commandMapper.getPostCommand(requestUri);
+    	String result = command.execute(request, response);
     	String resultB = String.valueOf(request.getAttribute("sharedId"));
-    	
+    	inspect(request);
         request.getRequestDispatcher(result).forward(request, response);
+    }
+
+    private void inspect(HttpServletRequest request){
+		Enumeration<String> params = request.getParameterNames();
+		while(params.hasMoreElements()){
+		 String paramName = params.nextElement();
+		 System.out.println("Parameter Name - "+paramName+", Value - "+request.getParameter(paramName));
+		}
+
+		Enumeration<String> attribs = request.getAttributeNames();
+		while(attribs.hasMoreElements()){
+		 String attribName = attribs.nextElement();
+		 System.out.println("Attribute Name - "+ attribName +", Value - "+request.getAttribute(attribName));
+		 if(attribName.equals(ViewConstants.TITLE_INSTANSE))
+			 System.err.println("book name: " + ((BookTitle)request.getAttribute(attribName)).getTitle());
+		}
     }
 }

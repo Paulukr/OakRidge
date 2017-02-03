@@ -12,21 +12,23 @@ import org.apache.log4j.Logger;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 import library.controller.ErrorList;
-import library.dao.DatabaseUtility;
+import library.model.dao.DatabaseUtility;
 
 public abstract class AbstractDao {
+	protected ComboPooledDataSource dataSource = null;
 	protected Connection connection = null;
 	protected PreparedStatement preparedStatement = null;
 	protected int resultSetSize = 0;
-	
+
     private static final Logger logger = Logger.getLogger(AbstractDao.class);
-    
+
 
 	protected void init() throws SQLException {
-		ComboPooledDataSource dataSource;
+//TODO check close		ComboPooledDataSource dataSource;
 		try {
 			dataSource = DatabaseUtility.getDataSource();
 			connection = dataSource.getConnection();
+
 		} catch (PropertyVetoException | SQLException e) {
             logger.error(ErrorList.DataSourse, e);
             throw new SQLException(ErrorList.DataSourse, e);
@@ -59,9 +61,9 @@ public abstract class AbstractDao {
 		{
 
 			preparedStatement = connection.prepareStatement("SELECT * FROM title_table");
-			
+
 			System.out.println("\n\nHey YOU \n try");
-			
+
 			System.out.println("The Connection Object is of Class: " + connection.getClass());
 			System.out.println("\n\nHey YOU \n class");
 			ResultSet resultSet = preparedStatement.executeQuery();
@@ -81,4 +83,11 @@ public abstract class AbstractDao {
 		}
 		return resultSetSize;
 	}
+	@Override
+	protected void finalize() throws Throwable {
+		connection.close();
+		dataSource.close();
+		super.finalize();
+	}
+
 }

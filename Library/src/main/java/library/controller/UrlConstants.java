@@ -62,7 +62,7 @@ public class UrlConstants {
     public static final String VIEWS = "/views";
     public static final String R_BOOK_ADD = RESOURCE + VIEWS + "/AddBook.jsp";
     public static final String R_BOOK_ADD_SUCCESS = RESOURCE + RESPONSES + "/AddBookSuccess.jsp";
-    public static final String R_BOOK_ADD_ERROR = RESOURCE + RESPONSES + "AddBookError.jsp";
+    public static final String R_BOOK_ADD_ERROR = RESOURCE + RESPONSES + "/AddBookError.jsp";
     
 
     

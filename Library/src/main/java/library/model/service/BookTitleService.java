@@ -13,7 +13,8 @@ public class BookTitleService {
 
 		try {
 			bookTitle.setTitle(HttpRequestDataProcessor.getSentence(request, ViewConstants.TITLE_NAME));
-			bookTitle.setType(HttpRequestDataProcessor.getWord(request, ViewConstants.TITLE_TYPE));
+//			bookTitle.setType(HttpRequestDataProcessor.getWord(request, ViewConstants.TITLE_TYPE_NAME));
+			bookTitle.setTypeNo(HttpRequestDataProcessor.getInt(request, ViewConstants.TITLE_TYPE_NO));
 			bookTitle.setPublishedYear(HttpRequestDataProcessor.getYear(request, ViewConstants.TITLE_YEAR));
 			bookTitle.setAuthor(HttpRequestDataProcessor.getSentence(request, ViewConstants.TITLE_AUTHOR));
 			// tutor.setId(Integer.valueOf(String.valueOf(request.getSession().getAttribute(AttributesHolder.ID))));

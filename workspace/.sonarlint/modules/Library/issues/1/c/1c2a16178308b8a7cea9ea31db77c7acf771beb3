@@ -1,0 +1,6 @@
+
+Ysquid:S1854"=Remove this useless assignment to local variable "bookTitle".(±¨þ§ýÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ
+<squid:S1166"%Either log or rethrow this exception.(…æà
+Jsquid:S1481".Remove this unused "bookTitle" local variable.(±¨þ§ýÿÿÿÿ
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(›ƒ¾™ûÿÿÿÿ
