@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+
+
+<html>
+<body>
+<p>
+Book table
+</p>
+	<c:if test="${title_instanse_list != null}">
+		<h2 align="center">Currency info table</h2>
+		<table border="1" width="400" height="250" align="center">
+
+			<tr>
+				<th align="center"><b>Currency pair</b></th>
+				<th align="center"><b>Rate</b></th>
+				<th align="center"><b>Ask</b></th>
+				<th align="center"><b>Bid</b></th>
+			</tr>
+
+			<c:forEach var="title_instanse" items="${list}">
+				<h3>s3: ${title_instanse.title}</h3>
+				<td style="text-indent: 10px"><c:out value="${title_instanse.title}" /></td>
+				<td style="text-indent: 10px"><c:out value="${s.rate}" /></td>
+				<td style="text-indent: 10px"><c:out value="${s.ask}" /></td>
+				<td style="text-indent: 10px"><c:out value="${s.bid}" /></td>
+			</c:forEach>
+		</table>
+	</c:if>
+</body>
+</html>

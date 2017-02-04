@@ -20,26 +20,28 @@
 			value="${ViewConstants.ERROR_MESSAGE}" />
 		<c:set var="errorMessage"
 			value="${requestScope[errorMessageAttributeName]}" />
-		s1: ${errorMessage}
+		Result: ${errorMessage}
 	<p>
-			<c:set var="title_instanse_listAttributeName"
+		<c:set var="title_instanse_listAttributeName"
 			value="${ViewConstants.TITLE_INSTANSE_LIST}" />
 		<c:set var="title_instanse_list"
 			value="${requestScope[title_instanse_listAttributeName]}" />
-	<c:if test="${title_instanse_list != null}">
+		<c:if test="${title_instanse_list != null}">
+			<c:set var="outputListName" value="${ViewConstants.OUTPUT_LIST}" />
+<!-- The name attribute of the jsp:param standard action does not accept any expressions -->
+			<jsp:include page="../../WEB-INF/forms/BookTitleList.jsp">
+				<jsp:param name="OUTPUT_LIST" value="${title_instanse_list}" />
+			</jsp:include>
+		</c:if>
+				<br>
+		</p>
 
-			<c:forEach var="title_instanse" items="${title_instanse_list}">
-						<h3>s3: ${title_instanse.title}</h3>
-
-</c:forEach>
-    			<jsp:include page="../../WEB-INF/forms/BookTitleList.jsp">
-        			<jsp:param name="list" value="${title_instanse_list}"/>
-    			</jsp:include>
-
-	</c:if>
-
-
-	<p> <a href="NewFile.html">html file in webapps</a>
-	<p>Current time is: <%=new java.util.Date()%></p>
+	<p>
+					<br>
+		<a href="NewFile.html">html file in webapps</a>
+		</p>
+	<p>
+		Current time is:
+		<%=new java.util.Date()%></p>
 </body>
 </html>

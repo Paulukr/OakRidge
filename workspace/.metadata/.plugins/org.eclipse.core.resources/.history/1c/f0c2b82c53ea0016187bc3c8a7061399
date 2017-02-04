@@ -1,0 +1,21 @@
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+
+
+<html>
+<body>
+	<c:set var="fullName" value="${sharedId}" />
+	<h1>s1: ${fullName}</h1>
+	<h1>s2: ${fullName}</h1>
+	<h1>
+		s3:
+		<c:out value="${fullName}"></c:out>
+	</h1>
+	<p align="center">
+	PageNotFound
+			<c:out value="${param.list}"/>
+						<c:forEach var="title_instanse" items="${list}">
+						<h3>s3: ${title_instanse.title}</h3>
+
+</c:forEach>
+</body>
+</html>

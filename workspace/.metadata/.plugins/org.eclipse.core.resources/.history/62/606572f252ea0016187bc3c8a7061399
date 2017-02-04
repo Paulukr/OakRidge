@@ -1,0 +1,14 @@
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+
+
+<html>
+<body>
+book list
+	<c:if test="${param.list != null}">
+		<c:forEach var="title_instanse" items="${param.list}">
+			<h3>s3: ${title_instanse.title}</h3>
+		</c:forEach>
+	</c:if>
+</body>
+</html>
+

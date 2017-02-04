@@ -14,3 +14,9 @@
 1486144731797	Copy file
 1486152839413	Rename resource 'BookTitleItem.jsp'
 1486153412837	Move 'BookTitleList.jsp' to 'forms'
+1486210030859	Rename type 'Librarian'
+1486210312225	Rename type 'BookTitleService'
+1486210331067	Move compilation unit
+1486210722842	Delete element
+1486211046161	Rename package 'library.controller.command.lib_commands'
+1486211076128	Rename package 'library.controller.command.bookTitle'

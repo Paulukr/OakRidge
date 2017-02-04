@@ -1,0 +1,30 @@
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+
+
+<html>
+<body>
+	<c:if test="${title_instanse_list != null}">
+		<c:forEach var="title_instanse" items="${list}">
+			<h3>s3: ${title_instanse.title}</h3>
+		</c:forEach>
+	</c:if>
+</body>
+</html>
+
+<table border="1" width="400" heigth="250" align="center">
+    <h2 align="center">Currency info table</h2>
+    <tr>
+        <td align="center"><b>Currency pair</b></td>
+        <td align="center"><b>Rate</b></td>
+        <td align="center"><b>Ask</b></td>
+        <td align="center"><b>Bid</b></td>
+    </tr>
+    <c:forEach items="${list}" var="s">
+        <tr>
+            <td style="text-indent: 10px"><c:out value="${s.name}"/> </td>
+            <td style="text-indent: 10px"><c:out value="${s.rate}"/> </td>
+            <td style="text-indent: 10px"><c:out value="${s.ask}"/></td>
+            <td style="text-indent: 10px"><c:out value="${s.bid}"/></td>
+        </tr>
+    </c:forEach>
+</table>
