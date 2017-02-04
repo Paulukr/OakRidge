@@ -1,5 +1,7 @@
 package library.model.dao.implemantation;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -12,16 +14,15 @@ import library.model.entity.Author;
 import library.model.entity.BookTitle;
 
 public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
-	
+
     private static final Logger logger = Logger.getLogger(BookTitleDaoImpl.class);
 
 	@Override
 	public Integer straitLookUp(String title, int[] authorsList) throws SQLException {
 			try {
-				init();//TODO
 				//SELECT Title_no FROM title_table WHERE Title_name = 'California1' AND Author_no = 1;
 //				prepareStatement(DaoConstants.AUTHOR_GET_NO);
-				
+
 				prepareStatement(DaoConstants.BOOK_TITLE_FIND_SIGNATURE);
 				// (Title_name, AND Author_no)
 				preparedStatement.setString(1, title);
@@ -30,7 +31,7 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 
 				if (resultSet.next()) {
 					int result = resultSet.getInt(1);
-					String duplicateList = null; 
+					String duplicateList = null;
 					while(resultSet.next()){
 						duplicateList += " " + result;
 						result = resultSet.getInt(1);
@@ -68,23 +69,22 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
 //				author.setDatabaseID(resultSet.getInt(4));
 //				bookTitle.getAuthors().add(author);
 //			}
-				
-			
+
+
 		} catch (SQLException e) {
             logger.error(ErrorList.InsertTitle, e);
             throw new SQLException(ErrorList.InsertTitle, e);
 		}
 		return bookTitle;
 	}
-	
+
 	@Override
 	public Integer addBookTitle(BookTitle book) throws SQLException {
 //		if (straitLookUp(book.getTitle(),
 //				 book.getAuthors().stream().mapToInt(Author::getDatabaseID).toArray()) > 0) {
-//			return false;		
+//			return false;
 //		}
         try {
-        	init();//TODO
         	//INSERT INTO title_table ( Title_name, Type_no, Title_year_published, Author_no)
 //        	prepareStatementKeyGeneration(DaoConstants.BOOK_TITLE_ADD);
         	prepareStatement(DaoConstants.BOOK_TITLE_ADD);
@@ -96,8 +96,8 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
             preparedStatement.setInt(3, book.getPublishedYear());
             preparedStatement.setInt(4, 1);
             logger.error("\n sql \n" + DaoConstants.BOOK_TITLE_ADD + " ");
-            
-            
+
+
             try (ResultSet generatedKeys = preparedStatement.executeQuery()) {
                 if (generatedKeys.next()) {
                     book.setDatabaseID(generatedKeys.getInt(1));
@@ -113,5 +113,64 @@ public class BookTitleDaoImpl extends AbstractDao  implements BookTitleDao{
         }
 		return book.getDatabaseID();
 	}
+	@Override
+	public Integer addBookTitle4(BookTitle book) throws SQLException {
+		String expression = DaoConstants.BOOK_TITLE_ADD;
 
+        try (ResultSet generatedKeys = doQuery(connection -> {
+	        try {
+			PreparedStatement preparedStatement = connection.prepareStatement(expression);
+	        preparedStatement.setString(1, book.getTitle());
+	        preparedStatement.setInt(2, book.getTypeNo());
+	        preparedStatement.setInt(3, book.getPublishedYear());
+				preparedStatement.setInt(4, 1);
+			} catch (SQLException e) {
+			}
+	        return preparedStatement;
+		});)
+        {
+            if (generatedKeys.next()) {
+                book.setDatabaseID(generatedKeys.getInt(1));
+            }
+            else {
+                throw new SQLException("Creating user failed, no ID obtained.");
+            }
+        }
+		return book.getDatabaseID();
+	}
+
+	public Integer addBookTitle2(BookTitle book) throws SQLException {
+//		if (straitLookUp(book.getTitle(),
+//				 book.getAuthors().stream().mapToInt(Author::getDatabaseID).toArray()) > 0) {
+//			return false;
+//		}
+        try {
+        	//INSERT INTO title_table ( Title_name, Type_no, Title_year_published, Author_no)
+//        	prepareStatementKeyGeneration(DaoConstants.BOOK_TITLE_ADD);
+        	prepareStatement(DaoConstants.BOOK_TITLE_ADD);
+//        	prepareStatement("INSERT INTO title_table (Title_no) VALUES (? )");
+//        	"SELECT * FROM title_table"
+
+            preparedStatement.setString(1, book.getTitle());
+            preparedStatement.setInt(2, book.getTypeNo());
+            preparedStatement.setInt(3, book.getPublishedYear());
+            preparedStatement.setInt(4, 1);
+            logger.debug("\n sql \n" + DaoConstants.BOOK_TITLE_ADD + " ");
+
+
+            try (ResultSet generatedKeys = preparedStatement.executeQuery()) {
+                if (generatedKeys.next()) {
+                    book.setDatabaseID(generatedKeys.getInt(1));
+                }
+                else {
+                    throw new SQLException("Creating user failed, no ID obtained.");
+                }
+            }
+            preparedStatement.close();
+        } catch (SQLException e) {
+            logger.error(ErrorList.InsertTitle, e);
+            throw new SQLException(ErrorList.InsertTitle, e);
+        }
+		return book.getDatabaseID();
+	}
 }

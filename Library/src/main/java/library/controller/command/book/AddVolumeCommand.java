@@ -1,4 +1,4 @@
-package library.controller.command.lib_commands;
+package library.controller.command.book;
 
 import java.io.IOException;
 import java.util.Enumeration;

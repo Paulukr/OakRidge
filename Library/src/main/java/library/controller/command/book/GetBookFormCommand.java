@@ -1,31 +1,29 @@
-package library.controller.command.lib_commands;
+package library.controller.command.book;
+
+import java.sql.SQLException;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import library.controller.UrlConstants;
+import library.controller.ViewConstants;
 import library.controller.command.Command;
-import library.model.entity.BookTitle;
 import library.model.service.BookTitleService;
-import library.model.service.InvalidInputException;
 
-public class SearchBookCommand implements Command {
-
-	public SearchBookCommand() {
-		// TODO Auto-generated constructor stub
-	}
+public class GetBookFormCommand implements Command {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse httpServletResponse) {
 		BookTitleService service = new BookTitleService();
 		try {
-			BookTitle bookTitle = service.getAddBookTitleRequestData(request);
+			String[] types = service.getBookTypes();
 			// find book return
 			// add book
-		} catch (InvalidInputException e) {
+			request.setAttribute(ViewConstants.TITLE_TYPES_LIST, types);
+		} catch (SQLException e) {
 			return UrlConstants.R_BOOK_ADD_ERROR;
 		}
-		return UrlConstants.R_BOOK_ADD_SUCCESS;
+		return UrlConstants.R_BOOK_ADD;
 	}
 
 }

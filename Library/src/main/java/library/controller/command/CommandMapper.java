@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 import library.controller.UrlConstants;
-import library.controller.command.lib_commands.AddBookCommand;
-import library.controller.command.lib_commands.AddVolumeCommand;
-import library.controller.command.lib_commands.GetBookFormCommand;
-import library.controller.command.lib_commands.PageNotFoundCommand;
-import library.controller.command.lib_commands.SearchBookCommand;
+import library.controller.command.book.AddBookCommand;
+import library.controller.command.book.AddVolumeCommand;
+import library.controller.command.book.GetBookFormCommand;
+import library.controller.command.book.PageNotFoundCommand;
+import library.controller.command.book.SearchBookCommand;
 
 public class CommandMapper {
 	public static final String GET = "GET";

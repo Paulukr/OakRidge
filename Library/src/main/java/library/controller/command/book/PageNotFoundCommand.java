@@ -1,4 +1,4 @@
-package library.controller.command.lib_commands;
+package library.controller.command.book;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

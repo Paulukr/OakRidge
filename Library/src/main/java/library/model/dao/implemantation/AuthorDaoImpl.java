@@ -11,11 +11,10 @@ import library.model.dao.declaration.AuthorDao;
 public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 
     private static final Logger logger = Logger.getLogger(AbstractDao.class);
-	
+
 	@Override
 	public boolean check_availability(String fullName) {
 		try {
-			init();//TODO
 			prepareStatement(DaoConstants.AUTHOR_CHECK_AVAILABILITY);
 			// (Author_name)
 			preparedStatement.setString(1, fullName);
@@ -45,7 +44,6 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 	@Override
 	public Integer getNo(String fullName) {
 		try {
-			init();// TODO remove
 			prepareStatement(DaoConstants.AUTHOR_GET_NO);
 			// (Author_name)
 			preparedStatement.setString(1, fullName);
@@ -68,7 +66,6 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 	@Override
 	public boolean addAuthor(String fullName) {
 		try {
-			init();
 			prepareStatement(DaoConstants.AUTHOR_ADD);
 			// (Author_name)
 			preparedStatement.setString(1, fullName);
@@ -78,7 +75,7 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 		} catch (Exception e) {
 
 			logger.error(ErrorList.SelectAuthor, e);
-			
+
 			throw new RuntimeException(ErrorList.SelectAuthor, e);
 		}
 	}

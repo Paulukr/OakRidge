@@ -1,37 +1,31 @@
-package library.controller.command.lib_commands;
-
-import java.sql.SQLException;
+package library.controller.command.book;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import library.controller.UrlConstants;
-import library.controller.ViewConstants;
 import library.controller.command.Command;
-import library.model.dao.declaration.BookTypeDao;
-import library.model.dao.implemantation.BookTypeDaoImpl;
 import library.model.entity.BookTitle;
 import library.model.service.BookTitleService;
 import library.model.service.InvalidInputException;
 
-public class GetBookFormCommand implements Command {
+public class SearchBookCommand implements Command {
+
+	public SearchBookCommand() {
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse httpServletResponse) {
-		
-		BookTypeDao typeDao = new BookTypeDaoImpl();
-		
 		BookTitleService service = new BookTitleService();
 		try {
-			String[] types = typeDao.getBookTypes();
+			BookTitle bookTitle = service.getAddBookTitleRequestData(request);
 			// find book return
 			// add book
-            request.setAttribute(ViewConstants.TITLE_TYPES_LIST, types);
-		} catch (SQLException e) {
+		} catch (InvalidInputException e) {
 			return UrlConstants.R_BOOK_ADD_ERROR;
 		}
-		
-		return UrlConstants.R_BOOK_ADD;
+		return UrlConstants.R_BOOK_ADD_SUCCESS;
 	}
 
 }

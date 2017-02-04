@@ -9,6 +9,7 @@ public class ViewConstants {
 
 	public static final String TITLE_INSTANSE = "Title_instance";
 	public static final String TITLE_INSTANSE_LIST = "Title_instance_list";
+	public static final String OUTPUT_LIST = "OUTPUT_LIST";
 
 	public static final String TITLE_TYPES_LIST = "Title_types_list";
 

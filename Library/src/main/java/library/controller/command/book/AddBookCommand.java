@@ -1,10 +1,6 @@
-package library.controller.command.lib_commands;
+package library.controller.command.book;
 
-import java.awt.print.Book;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Enumeration;
-import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -17,7 +13,6 @@ import library.controller.ViewConstants;
 import library.controller.command.Command;
 import library.model.dao.implemantation.BookTitleDaoImpl;
 import library.model.entity.BookTitle;
-import library.model.entity.Librarian;
 import library.model.service.BookTitleService;
 import library.model.service.InvalidInputException;
 
@@ -32,16 +27,15 @@ public class AddBookCommand implements Command {
 		BookTitleService service = new BookTitleService();
 		try {
 			BookTitle newBookTitle = service.getAddBookTitleRequestData(request);
-			Librarian librarian = new Librarian();
-			Integer bookId = librarian.tryAddBookTitle(newBookTitle);
+			Integer bookId = service.tryAddBookTitle(newBookTitle);
 			if (bookId < 0) {
 				bookId = -bookId;
-				BookTitle bookTitle = librarian.getBookTitleByID(bookId);
+				BookTitle bookTitle = service.getBookTitleByID(bookId);
 	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
 	            request.setAttribute(ViewConstants.ERROR_MESSAGE, null);
 	    		return UrlConstants.R_BOOK_ADD_SUCCESS;
 			}else {
-				BookTitle bookTitle = librarian.getBookTitleByID(bookId);
+				BookTitle bookTitle = service.getBookTitleByID(bookId);
 	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
 	            request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_ALREADY_ADDED);
 				return UrlConstants.R_BOOK_ADD_ERROR;
