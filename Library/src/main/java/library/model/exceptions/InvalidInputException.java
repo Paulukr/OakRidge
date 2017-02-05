@@ -1,7 +1,7 @@
 /**
  * 
  */
-package library.model.service;
+package library.model.exceptions;
 
 public class InvalidInputException extends Exception {
 

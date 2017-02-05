@@ -2,13 +2,17 @@ package libray.test.model.entity;
 
 import static org.junit.Assert.*;
 
+import java.sql.SQLException;
+
 import org.junit.Before;
 import org.junit.Test;
 
-import library.model.service.BookTitleService;
+import library.model.exceptions.AuthorDublicateException;
+import library.model.service.AuthorService;
 
 public class libTest {
-	static BookTitleService librarian = new BookTitleService();;
+	static AuthorService librarian = AuthorService.getInstance();
+
 	@Before
 	public void setUp() throws Exception {
 
@@ -16,11 +20,21 @@ public class libTest {
 
 	@Test
 	public void testfindOrAddAuthor() {
-		librarian.findOrAddAuthor("MAN");
+		try {
+			librarian.findAuthorID("MAN");
+		} catch (SQLException | AuthorDublicateException e) {
+			fail(e.getMessage());
+		}
 	}
-	
+
 	@Test
 	public void testfindOrAddAuthors() {
-		librarian.findOrAddAuthors("MAN", "Lin");
+		try {
+			assertEquals("MAN", librarian.getAuthorByID(1).getName());
+			assertEquals(null, librarian.getAuthorByID(10));
+		} catch (SQLException e) {
+			fail(e.getMessage());
+		}
+
 	}
 }

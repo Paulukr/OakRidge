@@ -17,88 +17,66 @@ import library.model.dao.implemantation.BookTitleDaoImpl;
 import library.model.dao.implemantation.BookTypeDaoImpl;
 import library.model.entity.Author;
 import library.model.entity.BookTitle;
+import library.model.exceptions.BookDublicateException;
+import library.model.exceptions.InvalidInputException;
 
 public class BookTitleService {
+	protected BookTitleDao bookTitleDao = BookTitleDaoImpl.getInstance();
+	protected BookTypeDao bookTypeDao = BookTypeDaoImpl.getInstance();
 
-/*	 quik lookUp
-	 strait lookUp
-	 loose lookUp
-	 get authors id (names)
-	 get book id (name, authors)
+	/*
+	 * quik lookUp strait lookUp loose lookUp get authors id (names) get book id
+	 * (name, authors)
+	 *
+	 * advanced lookUp
+	 */
+	protected BookTitleService() {
+	}
 
-	 	 advanced lookUp
-*/
+	private static class LazyHolder {
+		private static final BookTitleService INSTANCE = new BookTitleService();
+	}
 
+	public static BookTitleService getInstance() {
+		return LazyHolder.INSTANCE;
+	}
 
-	public Integer tryAddBookTitle(BookTitle bookTitle) throws SQLException {
-		Integer bookITitleID =  findBookTitleID(bookTitle);
+	public Integer tryAddBookTitle(BookTitle bookTitle) throws SQLException, BookDublicateException {
+		Integer bookITitleID = findBookTitleID(bookTitle);
 		if (bookITitleID != null)
 			return bookITitleID;
 		else
 			return -addBookTitle(bookTitle);
 	}
-	protected Integer addBookTitle(BookTitle bookTitle) throws SQLException {
 
-		try(BookTitleDao bookTitleDao = new BookTitleDaoImpl()) {
-			return bookTitleDao.addBookTitle4(bookTitle);
-		} catch (IOException e) {
-			e.printStackTrace();
-			return null;
-		}
+	protected Integer addBookTitle(BookTitle bookTitle) throws SQLException {
+		return bookTitleDao.addBookTitle(bookTitle);
 	}
+
 	public String[] getBookTypes() throws SQLException {
-		BookTypeDao bookTypeDao = new BookTypeDaoImpl();
 		return bookTypeDao.getBookTypes();
 	}
+
 	public BookTitle getBookTitleByID(int id) throws SQLException {
-		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
 		return bookTitleDao.getBookTitle(id);
 	}
-	public Integer findBookTitleID(BookTitle bookTitle) throws SQLException {
-		java.util.List<Author> authorsList = findOrAddAuthors(
-				bookTitle.getAuthors().stream().map(Author::getName).toArray(String[]::new));
-		bookTitle.setAuthors(authorsList);
+
+	public Integer findBookTitleID(BookTitle bookTitle) throws SQLException, BookDublicateException {
+		bookTitle.setAuthors(bookTitle.getAuthors());
 		return findBookTitleID(bookTitle.getTitle(),
 				bookTitle.getAuthors().stream().mapToInt(Author::getDatabaseID).toArray());
 	}
-	public Integer findBookTitleID(String titleName, int...authors) throws SQLException {
-		BookTitleDao bookTitleDao = new BookTitleDaoImpl();
+
+	public Integer findBookTitleID(String titleName, int... authors) throws SQLException, BookDublicateException {
 		return bookTitleDao.straitLookUp(titleName, authors);
 	}
 
-	public Author findOrAddAuthor(String authorName) {
-		AuthorDao authorDao = new AuthorDaoImpl();
-		if (!authorDao.check_availability(authorName))
-			authorDao.addAuthor(authorName);
-		int id = authorDao.getNo(authorName);
-		Author author = new Author();
-		author.setDatabaseID(id);
-		author.setFullName(authorName);
-		return author;
-	}
-
-	public List<Author> findOrAddAuthors(String... authors) {
-		java.util.List<Author> authorsList = new ArrayList<>();
-		AuthorDao authorDao = new AuthorDaoImpl();
-
-		for (String authorName : authors) {
-			if (!authorDao.check_availability(authorName))
-				authorDao.addAuthor(authorName);
-			int id = authorDao.getNo(authorName);
-			Author author = new Author();//TODO constructor
-			author.setDatabaseID(id);
-			author.setFullName(authorName);
-			authorsList.add(author);
-		}
-		return authorsList;
-	}
 	public BookTitle getAddBookTitleRequestData(HttpServletRequest request) throws InvalidInputException {
-
 		BookTitle bookTitle = new BookTitle();
-
 		try {
 			bookTitle.setTitle(HttpRequestDataProcessor.getSentence(request, ViewConstants.TITLE_NAME));
-//			bookTitle.setType(HttpRequestDataProcessor.getWord(request, ViewConstants.TITLE_TYPE_NAME));
+			// bookTitle.setType(HttpRequestDataProcessor.getWord(request,
+			// ViewConstants.TITLE_TYPE_NAME));
 			bookTitle.setTypeNo(HttpRequestDataProcessor.getInt(request, ViewConstants.TITLE_TYPE_NO));
 			bookTitle.setPublishedYear(HttpRequestDataProcessor.getYear(request, ViewConstants.TITLE_YEAR));
 			bookTitle.setAuthor(HttpRequestDataProcessor.getSentence(request, ViewConstants.TITLE_AUTHOR));

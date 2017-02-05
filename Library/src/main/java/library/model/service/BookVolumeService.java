@@ -1,6 +1,14 @@
 package library.model.service;
 
+
 public class BookVolumeService {
+	protected BookVolumeService(){}
+    private static class LazyHolder {
+        private static final BookVolumeService INSTANCE = new BookVolumeService();
+    }
+    public static BookVolumeService getInstance(){
+        return LazyHolder.INSTANCE;
+    }
 	boolean addVolumeNewTitle() {
 		return false;
 	}

@@ -4,24 +4,18 @@ public class DaoConstants {
 	// sql queries for prepared statements
 		// BookTitle
     public static final String BOOK_TITLE_ADD = " INSERT INTO Title_table ( Title_name, Type_no, Title_year_published, Author_no)"
-    		+ " VALUES(?, ?, ?, ?)" +"RETURNING title_no";
+    		+ " VALUES(?, ?, ?, ?)" +"RETURNING Title_no";
     public static final String BOOK_TITLE_SELECT = " SELECT Title_name, Type_no, Title_year_published, Author_no  FROM Title_table"
     		+ " WHERE Title_no = ?";
     public static final String BOOK_TITLE_FIND_SIGNATURE = "SELECT Title_no FROM title_table WHERE Title_name = ? AND Author_no = ? ";
-
-    
     public static final String BOOK_TYPES_GET = "SELECT Type_description FROM Type_table ORDER BY Type_no ASC";
+    public static final String BOOK_TITLE_DELETE = "DELETE FROM Title_table WHERE id = ?";
 
-//    public static final String CREATE = "INSERT INTO Title_table (Title_no) " 
-//    		+ " VALUES(? ) ";
-    
-    public static final String DELETE = "DELETE FROM Title_table WHERE id = ?";
-//    public static final String UPDATE = "update";
-//    public static final String FIND_ONE = "";
 	// Author
     public static final String AUTHOR_CHECK_AVAILABILITY = "SELECT COUNT ( *) FROM Author_table WHERE Author_name = ?" ;
     public static final String AUTHOR_GET_NO = "SELECT Author_no FROM Author_table WHERE Author_name = ?" ;
-    public static final String AUTHOR_ADD = " INSERT INTO Author_table ( Author_name ) VALUES(?)";
+    public static final String AUTHOR_ADD = " INSERT INTO Author_table ( Author_name ) VALUES(?)" +"RETURNING Author_no";
+    public static final String AUTHOR_GET_INSTANCE = "SELECT Author_name FROM Author_table WHERE Author_no = ?" ;
     /*
     public static final String FIND_ALL = "find.all";
     public static final String FIND_BY_TUTOR = "find.by.tutor";

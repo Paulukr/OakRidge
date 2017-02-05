@@ -14,7 +14,7 @@ public class GetBookFormCommand implements Command {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse httpServletResponse) {
-		BookTitleService service = new BookTitleService();
+		BookTitleService service = BookTitleService.getInstance();
 		try {
 			String[] types = service.getBookTypes();
 			// find book return

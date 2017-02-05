@@ -11,11 +11,13 @@ import org.junit.Test;
 import library.model.dao.implemantation.BookTitleDaoImpl;
 import library.model.entity.Author;
 import library.model.entity.BookTitle;
+import library.model.exceptions.BookDublicateException;
 
 public class BookTitleDaoImplTest {
-	static 	BookTitleDaoImpl bookTitleDaoImpl = new BookTitleDaoImpl();
+	static 	BookTitleDaoImpl bookTitleDaoImpl;
 	@Before
 	public void setUp() throws Exception {
+		bookTitleDaoImpl = BookTitleDaoImpl.getInstance();
 	}
 
 	@Test
@@ -25,7 +27,7 @@ public class BookTitleDaoImplTest {
 
 	@Test
 	public void testStraitLookUpStringIntegerArray() {
-	
+
 
 		int[] authorsList =  {1};
 //		bookTitleDaoImpl.straitLookUp("California1", authorsList);
@@ -37,16 +39,18 @@ public class BookTitleDaoImplTest {
 //			assertEquals(Integer.valueOf(15), bookTitleDaoImpl.straitLookUp("hello", authorsList ));
 		} catch (SQLException e) {
 			fail(e.toString());
+		} catch (BookDublicateException e) {
+			fail(e.toString());
 		}
 
 
-		
+
 	}
 
 	@Test
 	public void testAddBookTitle() {
 
-	
+
 		Author author = new Author();
 		author.setDatabaseID(15);
 		author.setFullName("Author 15");
@@ -58,10 +62,10 @@ public class BookTitleDaoImplTest {
 			fail(e.toString());
 		}
 	}
-	
+
 	@Test
 	public void testGetBookTitle() {
-	
+
 		Author author = new Author("Author", 0);
 		java.util.List<Author> authors = Arrays.asList(author);
 		BookTitle book1 = new BookTitle("hello2", "study", 1, 2000,  authors);
@@ -75,7 +79,7 @@ public class BookTitleDaoImplTest {
 		} catch (SQLException e) {
 			fail(e.toString());
 		}
-		
+
 		book1 = new BookTitle("Привіт", "study", 1, 2000,  authors);
 		bookId = 0;
 			try {

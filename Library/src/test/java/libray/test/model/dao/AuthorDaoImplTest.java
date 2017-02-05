@@ -2,38 +2,49 @@ package libray.test.model.dao;
 
 import static org.junit.Assert.*;
 
+import java.sql.SQLException;
+
 import org.junit.Before;
 import org.junit.Test;
 
+import library.model.dao.declaration.AuthorDao;
 import library.model.dao.implemantation.AuthorDaoImpl;
+import library.model.entity.Author;
+import library.model.exceptions.AuthorDublicateException;
 
 public class AuthorDaoImplTest {
-
+	AuthorDao authorDao;
 	@Before
 	public void setUp() throws Exception {
-	}
-
-	@Test
-	public void testCheck_availability() {
-		AuthorDaoImpl authorDaoImpl = new AuthorDaoImpl();
-		assertEquals(true, authorDaoImpl.check_availability("Man"));
-		assertEquals(false, authorDaoImpl.check_availability("Jan"));
+		authorDao = AuthorDaoImpl.getInstance();
 	}
 
 	@Test
 	public void testGetNo() {
-		AuthorDaoImpl authorDaoImpl = new AuthorDaoImpl();
-		assertEquals(1, authorDaoImpl.getNo("Man").intValue());
-		assertEquals(2, authorDaoImpl.getNo("Lin").intValue());
+		try {
+			assertEquals(1, authorDao.findAuthorID("Man").intValue());
+			assertEquals(2, authorDao.findAuthorID("Lin").intValue());
+		} catch (SQLException | AuthorDublicateException e) {
+			fail(e.getMessage());
+		}
+
 	}
-	
+
 	@Test
 	public void testAddAuthor() {
-		AuthorDaoImpl authorDaoImpl = new AuthorDaoImpl();
-		authorDaoImpl.addAuthor("Boyd");
-		assertEquals(1, authorDaoImpl.getNo("Man").intValue());
-		assertEquals(2, authorDaoImpl.getNo("Lin").intValue());
-		assertEquals(3, authorDaoImpl.getNo("Boyd").intValue());
+
+		try {
+			assertEquals(1, authorDao.findAuthorID(("Man")).intValue());
+			assertEquals(2, authorDao.findAuthorID("Lin").intValue());
+			assertEquals(null, authorDao.findAuthorID("Boyd"));
+		} catch (SQLException e) {
+			fail(e.getMessage());
+			e.printStackTrace();
+		} catch (AuthorDublicateException e) {
+			fail(e.getMessage());
+			e.printStackTrace();
+		}
+
 	}
-	
+
 }
