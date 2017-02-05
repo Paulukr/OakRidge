@@ -3053,3 +3053,447 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2017-02-05 02:42:35,164 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-02-05 02:42:35,166 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-02-05 02:42:35,172 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:43:27,621 [Worker-506] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 02:43:27,622 [Worker-506] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-02-05 02:44:54,666 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:44:54,676 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:44:54,688 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:44:54,696 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:45:15,171 [Worker-511] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 02:45:16,952 [Worker-511] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 02:45:19,685 [Worker-511] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 02:45:19,686 [Worker-511] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 02:45:19,687 [Worker-511] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 02:45:21,807 [Worker-511] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 02:45:21,848 [Worker-511] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2017-02-05 02:45:24,848 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:45:25,001 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:45:25,068 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:45:25,278 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:45:25,278 [Worker-517] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 02:45:25,279 [Worker-517] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 02:45:25,303 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:13,340 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:13,351 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:47:13,353 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:13,362 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:47:31,476 [Worker-518] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:31,483 [Worker-518] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:47:31,492 [Worker-518] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:31,500 [Worker-518] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:47:43,523 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:43,530 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:47:43,532 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:47:43,540 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:48:27,709 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:48:27,718 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:48:27,723 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:48:27,731 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:51:07,533 [Worker-518] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:51:07,566 [Worker-518] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:51:07,568 [Worker-518] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:51:07,580 [Worker-518] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:54:37,380 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:54:37,390 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:54:37,392 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:54:37,400 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:54:51,681 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:54:51,759 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:54:51,761 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:54:51,773 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:55:20,643 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:55:20,660 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:55:20,662 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:55:20,701 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:57:02,068 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:57:02,085 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:57:02,087 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:57:02,093 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:58:56,922 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:58:56,939 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:58:56,940 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:58:56,972 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:59:06,241 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:59:06,251 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:59:06,253 [Worker-517] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:59:06,260 [Worker-517] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:00:00,239 [Worker-522] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:00:00,253 [Worker-522] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:00:00,254 [Worker-522] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:00:00,265 [Worker-522] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:00:42,747 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:00:42,773 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:00:42,776 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:00:42,784 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:00:45,271 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:00:45,288 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:00:45,289 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:00:45,298 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:01:03,259 [Worker-517] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 03:01:04,069 [Worker-517] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:01:06,907 [Worker-517] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 03:01:06,908 [Worker-517] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 03:01:06,909 [Worker-517] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 03:01:09,829 [Worker-517] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 03:01:09,843 [Worker-517] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2017-02-05 03:01:12,068 [Worker-542] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:01:12,142 [Worker-542] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:01:12,205 [Worker-542] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:01:12,336 [Worker-542] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:01:12,337 [Worker-542] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:01:12,337 [Worker-542] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:01:12,349 [Worker-542] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:01:53,507 [Worker-531] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:01:53,587 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:01:53,593 [Worker-531] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:01:53,610 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:02:43,555 [Worker-540] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:02:43,569 [Worker-540] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:02:43,571 [Worker-540] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:02:43,584 [Worker-540] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:03:51,616 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:03:51,625 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:03:51,626 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:03:51,634 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:05:20,311 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:05:20,552 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:05:20,553 [Worker-515] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:05:20,605 [Worker-515] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:05:49,718 [Worker-518] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:05:49,745 [Worker-518] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:05:49,747 [Worker-518] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:05:49,767 [Worker-518] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:05:57,251 [Worker-525] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 03:05:58,003 [Worker-525] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:05:59,809 [Worker-525] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 03:05:59,809 [Worker-525] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 03:05:59,810 [Worker-525] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 03:06:01,411 [Worker-525] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 03:06:01,415 [Worker-525] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-02-05 03:06:02,610 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:06:02,624 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:06:02,647 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:06:02,665 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:06:02,666 [Worker-506] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:06:02,666 [Worker-506] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:06:02,671 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:06:25,539 [Worker-541] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:06:25,550 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:06:25,552 [Worker-541] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:06:25,565 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:08:33,870 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:08:33,879 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:08:33,881 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:08:33,907 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:11:30,891 [Worker-543] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:11:30,914 [Worker-543] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:11:30,915 [Worker-543] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 03:11:30,936 [Worker-543] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:12:11,887 [Worker-505] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 03:12:11,887 [Worker-505] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-02-05 03:16:01,410 [Worker-541] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:16:02,965 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:16:02,968 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:16:02,970 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:16:02,971 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:16:02,973 [Worker-541] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:16:02,973 [Worker-541] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:16:02,977 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:16:05,716 [Worker-550] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 03:16:06,352 [Worker-550] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:16:07,705 [Worker-550] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 03:16:07,706 [Worker-550] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 03:16:07,755 [Worker-550] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 03:16:10,000 [Worker-550] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 03:16:10,009 [Worker-550] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-02-05 03:16:12,433 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:16:12,434 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:16:12,460 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:16:12,460 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:16:12,461 [Worker-531] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:16:12,461 [Worker-531] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:16:12,468 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:16:30,201 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-02-05 03:16:39,786 [Worker-505] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 03:16:39,786 [Worker-505] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install clean
+2017-02-05 03:17:54,679 [Worker-545] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:17:56,240 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:17:56,243 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:17:56,245 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:17:56,245 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:17:56,245 [Worker-545] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:17:56,245 [Worker-545] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:17:56,250 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:18:00,465 [Worker-558] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:18:00,467 [Worker-558] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:18:00,476 [Worker-558] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:18:00,476 [Worker-558] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:19:18,555 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:19:18,556 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:19:18,565 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:19:18,566 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:25:47,346 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:25:47,347 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:25:47,348 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:25:47,348 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:27:22,968 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:27:22,969 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:27:22,972 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:27:22,972 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:28:17,716 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:28:17,716 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:28:17,718 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:28:17,718 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:28:56,851 [Worker-550] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:28:56,852 [Worker-550] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:28:56,853 [Worker-550] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:28:56,853 [Worker-550] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:04,503 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:04,504 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:04,506 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:04,506 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:09,245 [Worker-555] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:09,246 [Worker-555] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:09,258 [Worker-555] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:09,258 [Worker-555] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:17,800 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:17,801 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:17,808 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:17,808 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:23,370 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:23,371 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:23,373 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:23,373 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:31,818 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:31,818 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:31,820 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:31,820 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:44,006 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:44,007 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:44,008 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:44,008 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:48,217 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:48,218 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:48,219 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:48,219 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:29:58,520 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:58,521 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:29:58,522 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:29:58,522 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:04,689 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:04,689 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:30:04,690 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:04,691 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:16,402 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:16,402 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:30:16,405 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:16,406 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:21,130 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:21,135 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:30:21,137 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:21,137 [Worker-556] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:32,874 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:32,874 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:30:32,876 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:32,876 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:38,711 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:38,711 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:30:38,713 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:38,713 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:47,850 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:47,851 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:30:47,852 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:30:47,852 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:30:55,429 [Worker-555] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 03:30:56,084 [Worker-555] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:30:58,446 [Worker-555] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 03:30:58,446 [Worker-555] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 03:30:58,447 [Worker-555] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 03:30:59,562 [Worker-555] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 03:30:59,567 [Worker-555] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-02-05 03:31:01,257 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:01,257 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:31:01,298 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:01,299 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:31:01,329 [Worker-554] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:31:01,329 [Worker-554] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:31:01,334 [Worker-554] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:08,796 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:08,799 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:31:08,800 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:08,801 [Worker-531] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:31:13,699 [Worker-561] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 03:31:14,243 [Worker-561] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:31:15,934 [Worker-561] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 03:31:15,935 [Worker-561] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 03:31:15,935 [Worker-561] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 03:31:17,148 [Worker-561] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 03:31:17,153 [Worker-561] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-02-05 03:31:19,114 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:19,114 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:31:19,137 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:19,138 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:31:19,138 [Worker-541] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:31:19,138 [Worker-541] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:31:19,143 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:54,465 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:54,468 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:31:54,469 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:31:54,469 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:32:07,040 [Worker-562] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:32:07,041 [Worker-562] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:32:07,042 [Worker-562] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:32:07,044 [Worker-562] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:33:21,532 [Worker-556] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 03:33:21,532 [Worker-556] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-02-05 03:33:42,544 [Worker-555] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 03:33:42,545 [Worker-555] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-05 03:35:52,326 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:35:52,326 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:35:52,327 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:35:52,327 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:35:53,741 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:35:53,742 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:35:53,755 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:35:53,756 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:36:06,771 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:36:06,772 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:36:06,773 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:36:06,773 [Worker-541] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:36:15,857 [Worker-557] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:36:15,857 [Worker-557] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:36:15,859 [Worker-557] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:36:15,859 [Worker-557] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:36:15,859 [Worker-557] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:36:15,859 [Worker-557] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:36:15,870 [Worker-557] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:36:56,650 [Worker-531] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 03:36:57,284 [Worker-531] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 03:36:58,728 [Worker-531] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 03:36:58,728 [Worker-531] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 03:36:58,729 [Worker-531] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 03:37:00,632 [Worker-531] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 03:37:00,636 [Worker-531] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-02-05 03:37:02,387 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:37:02,388 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:37:02,428 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:37:02,428 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:37:02,429 [Worker-561] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 03:37:02,429 [Worker-561] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 03:37:02,436 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:37:45,352 [Worker-555] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 03:37:45,352 [Worker-555] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-02-05 03:39:32,594 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:39:32,598 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:39:32,599 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:39:32,599 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:39:34,388 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:39:34,389 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:39:34,395 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:39:34,395 [Worker-545] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:41:41,373 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:41:41,373 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:41:41,374 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:41:41,375 [Worker-561] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:42:26,126 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:42:26,126 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:42:26,127 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:42:26,127 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:49:14,017 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:49:14,018 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:49:14,019 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:49:14,020 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:49:32,377 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:49:32,378 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 03:49:32,380 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:49:32,380 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 03:54:15,829 [Worker-567] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:54:15,830 [Worker-567] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 03:54:15,832 [Worker-567] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 03:54:15,832 [Worker-567] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 04:01:40,269 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 04:01:40,269 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 04:01:40,271 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 04:01:40,276 [Worker-559] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 04:07:03,728 [Worker-573] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 04:07:03,729 [Worker-573] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 04:07:03,737 [Worker-573] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 04:07:03,737 [Worker-573] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 04:07:49,512 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 04:07:49,512 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 04:07:49,514 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 04:07:49,514 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 06:13:23,782 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:13:23,783 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 06:13:23,786 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:13:23,787 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 06:48:20,154 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:48:20,157 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 06:48:20,159 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:48:20,160 [Worker-560] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 06:49:06,766 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:49:06,767 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 06:49:06,770 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:49:06,771 [Worker-575] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 06:49:16,627 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:49:16,628 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 06:49:16,630 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:49:16,631 [Worker-566] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 06:49:43,200 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:49:43,202 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 06:49:43,206 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 06:49:43,206 [Worker-576] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:22:57,310 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:22:57,314 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 07:22:57,317 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:22:57,317 [Worker-577] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:26:08,541 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:26:08,542 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 07:26:08,543 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:26:08,543 [Worker-578] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:26:22,373 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:26:22,374 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 07:26:22,375 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:26:22,375 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:27:06,946 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:27:06,947 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 07:27:06,949 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:27:06,949 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:27:15,295 [Worker-560] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-05 07:27:15,937 [Worker-560] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: OakRidge:Library:0.0.1-SNAPSHOT @ E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\pom.xml.
+2017-02-05 07:27:18,808 [Worker-560] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/main/java
+2017-02-05 07:27:18,809 [Worker-560] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Library/src/main/resources
+2017-02-05 07:27:18,810 [Worker-560] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Library/src/test/java
+2017-02-05 07:27:20,240 [Worker-560] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Library
+2017-02-05 07:27:20,251 [Worker-560] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-02-05 07:27:22,607 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:27:22,608 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 07:27:22,639 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:27:22,639 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:27:22,640 [Worker-585] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Library
+2017-02-05 07:27:22,640 [Worker-585] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Library
+2017-02-05 07:27:22,645 [Worker-585] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:27:45,777 [Worker-581] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 07:27:45,777 [Worker-581] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-02-05 07:31:47,143 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:31:47,146 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 07:31:47,149 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:31:47,149 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:31:50,747 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:31:50,747 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 07:31:50,749 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:31:50,755 [Worker-565] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:32:06,050 [Worker-581] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 07:32:06,050 [Worker-581] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-02-05 07:34:26,657 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:34:26,658 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 07:34:26,659 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:34:26,659 [Worker-580] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:34:42,908 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:34:42,909 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 07:34:42,911 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:34:42,911 [Worker-579] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 07:35:03,538 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:35:03,539 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 07:35:03,552 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-05 07:35:03,553 [Worker-581] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources

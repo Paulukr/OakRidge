@@ -30,3 +30,8 @@
 1486251576784	Extract interface 'BookTitleDao'
 1486251666064	Delete element
 1486253127167	Rename local variable 'authorDaoImpl'
+1486255492845	Delete element
+1486258016892	Rename local variable 'URI'
+1486258575028	Move compilation unit
+1486272706254	Delete element
+1486272710414	Delete element

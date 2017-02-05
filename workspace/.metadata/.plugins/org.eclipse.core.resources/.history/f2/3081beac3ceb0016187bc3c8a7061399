@@ -1,0 +1,20 @@
+package library.model.service;
+
+public class ServiceFactory {
+	AuthorService authorService;
+	BookTitleService bookTitleService;
+
+    private static class LazyHolder {
+        private static final ServiceFactory INSTANCE = new ServiceFactory();
+    }
+    public static ServiceFactory getdataSource(){
+        return LazyHolder.INSTANCE;
+    }
+	public AuthorService getAuthorService() {
+		return authorService;
+	}
+	public BookTitleService getBookTitleService() {
+		return bookTitleService;
+	}
+
+}
