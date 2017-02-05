@@ -12,12 +12,15 @@ import library.model.dao.implemantation.BookTitleDaoImpl;
 import library.model.entity.Author;
 import library.model.entity.BookTitle;
 import library.model.exceptions.BookDublicateException;
+import library.model.service.AuthorService;
 
 public class BookTitleDaoImplTest {
 	static 	BookTitleDaoImpl bookTitleDaoImpl;
 	@Before
 	public void setUp() throws Exception {
 		bookTitleDaoImpl = BookTitleDaoImpl.getInstance();
+		AuthorService	serv = AuthorService.getInstance();
+		serv.restartBase();
 	}
 
 	@Test
@@ -80,7 +83,7 @@ public class BookTitleDaoImplTest {
 			fail(e.toString());
 		}
 
-		book1 = new BookTitle("Ïðèâ³ò", "study", 1, 2000,  authors);
+		book1 = new BookTitle("Ð‘ÑƒÐºÐ²Ð°Ñ€", "study", 1, 2000,  authors);
 		bookId = 0;
 			try {
 			bookId = bookTitleDaoImpl.addBookTitle(book1);

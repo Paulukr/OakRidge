@@ -19,7 +19,9 @@ public class SearchBookCommand implements Command {
 	public String execute(HttpServletRequest request, HttpServletResponse httpServletResponse) {
 		BookTitleService service = BookTitleService.getInstance();
 		try {
+			@SuppressWarnings("unused")
 			BookTitle bookTitle = service.getAddBookTitleRequestData(request);
+
 			// find book return
 			// add book
 		} catch (InvalidInputException e) {

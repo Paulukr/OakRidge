@@ -3,6 +3,7 @@ package library.model.dao;
 public class DaoConstants {
 	// sql queries for prepared statements
 		// BookTitle
+    public static final String RECREATE_BASE = "SELECT refillDatabase()";
     public static final String BOOK_TITLE_ADD = " INSERT INTO Title_table ( Title_name, Type_no, Title_year_published, Author_no)"
     		+ " VALUES(?, ?, ?, ?)" +"RETURNING Title_no";
     public static final String BOOK_TITLE_SELECT = " SELECT Title_name, Type_no, Title_year_published, Author_no  FROM Title_table"
@@ -12,7 +13,7 @@ public class DaoConstants {
     public static final String BOOK_TITLE_DELETE = "DELETE FROM Title_table WHERE id = ?";
 
 	// Author
-    public static final String AUTHOR_CHECK_AVAILABILITY = "SELECT COUNT ( *) FROM Author_table WHERE Author_name = ?" ;
+//    public static final String AUTHOR_CHECK_AVAILABILITY = "SELECT COUNT ( *) FROM Author_table WHERE Author_name = ?" ;
     public static final String AUTHOR_GET_NO = "SELECT Author_no FROM Author_table WHERE Author_name = ?" ;
     public static final String AUTHOR_ADD = " INSERT INTO Author_table ( Author_name ) VALUES(?)" +"RETURNING Author_no";
     public static final String AUTHOR_GET_INSTANCE = "SELECT Author_name FROM Author_table WHERE Author_no = ?" ;

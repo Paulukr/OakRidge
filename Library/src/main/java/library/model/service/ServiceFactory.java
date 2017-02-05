@@ -1,23 +1,20 @@
 package library.model.service;
 
-import java.beans.PropertyVetoException;
-
-import javax.management.RuntimeErrorException;
-
-import com.mchange.v2.c3p0.ComboPooledDataSource;
-
-import library.controller.ErrorList;
-import library.model.dao.DatabaseUtility;
-
-
 public class ServiceFactory {
-	AuthorService authorService;
-	BookTitleService bookTitleService;
+	protected AuthorService authorService;
+	protected BookTitleService bookTitleService;
 
     private static class LazyHolder {
         private static final ServiceFactory INSTANCE = new ServiceFactory();
     }
-    public static ServiceFactory getdataSource(){
+    public static ServiceFactory getInstance(){
         return LazyHolder.INSTANCE;
     }
+	public AuthorService getAuthorService() {
+		return authorService;
+	}
+	public BookTitleService getBookTitleService() {
+		return bookTitleService;
+	}
+
 }

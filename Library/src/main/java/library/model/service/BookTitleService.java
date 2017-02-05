@@ -1,18 +1,12 @@
 package library.model.service;
 
-import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
-import javax.print.DocFlavor.INPUT_STREAM;
 import javax.servlet.http.HttpServletRequest;
 
 import library.controller.ViewConstants;
-import library.model.dao.declaration.AuthorDao;
 import library.model.dao.declaration.BookTitleDao;
 import library.model.dao.declaration.BookTypeDao;
-import library.model.dao.implemantation.AuthorDaoImpl;
 import library.model.dao.implemantation.BookTitleDaoImpl;
 import library.model.dao.implemantation.BookTypeDaoImpl;
 import library.model.entity.Author;

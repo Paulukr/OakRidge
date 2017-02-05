@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Set;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
@@ -20,9 +19,9 @@ public class ExampleQuery {
 			ComboPooledDataSource dataSource = DatabaseUtility.getDataSource();
 			connection = dataSource.getConnection();
 			pstmt = connection.prepareStatement("SELECT * FROM title_table");
-			
+
 			System.out.println("\n\nHey YOU \n try");
-			
+
 			System.out.println("The Connection Object is of Class: " + connection.getClass());
 			System.out.println("\n\nHey YOU \n class");
 			resultSet = pstmt.executeQuery();

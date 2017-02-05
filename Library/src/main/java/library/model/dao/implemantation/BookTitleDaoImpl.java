@@ -12,9 +12,7 @@ import library.model.dao.DaoConstants;
 import library.model.dao.declaration.BookTitleDao;
 import library.model.entity.Author;
 import library.model.entity.BookTitle;
-import library.model.exceptions.AuthorDublicateException;
 import library.model.exceptions.BookDublicateException;
-import library.model.service.AuthorService;
 
 
 public class BookTitleDaoImpl extends AbstractDao implements BookTitleDao {

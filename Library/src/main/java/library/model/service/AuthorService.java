@@ -37,4 +37,7 @@ public class AuthorService {
 	public Author getAuthorByID(int databaseId) throws SQLException {
 		return authorDao.getAuthorByID(databaseId);
 	}
+	public void restartBase()  {
+		 authorDao.restartBase();
+	}
 }

@@ -1,6 +1,5 @@
 package library.model.dao.declaration;
 
-import java.io.Closeable;
 import java.sql.SQLException;
 
 import library.model.entity.BookTitle;

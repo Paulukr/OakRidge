@@ -1,11 +1,10 @@
 package libray.test.model.dao;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import java.sql.SQLException;
 
-import org.hamcrest.core.IsEqual;
-import org.hamcrest.number.IsCloseTo;
 import org.junit.Before;
 import org.junit.Test;
 

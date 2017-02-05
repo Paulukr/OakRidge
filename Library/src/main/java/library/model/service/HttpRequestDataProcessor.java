@@ -20,11 +20,11 @@ public class HttpRequestDataProcessor {
 	public static final String LONG_REGEX = "\\d{1,13}";
 
 //	public static final  Pattern
-	public static Matcher SENTENCE_MATCHER = Pattern.compile(SENTENCE_REGEX).matcher("");
-	public static Matcher WORD_MATCHER = Pattern.compile(WORD_REGEX).matcher("");
-	public static Matcher YEAR_MATCHER = Pattern.compile(YEAR_REGEX).matcher("");
-	public static Matcher INTEGER_MATCHER = Pattern.compile(INTEGER_REGEX).matcher("");
-	public static Matcher LONG_MATCHER = Pattern.compile(LONG_REGEX).matcher("");
+	public static final Matcher SENTENCE_MATCHER = Pattern.compile(SENTENCE_REGEX).matcher("");
+	public static final Matcher WORD_MATCHER = Pattern.compile(WORD_REGEX).matcher("");
+	public static final Matcher YEAR_MATCHER = Pattern.compile(YEAR_REGEX).matcher("");
+	public static final Matcher INTEGER_MATCHER = Pattern.compile(INTEGER_REGEX).matcher("");
+	public static final Matcher LONG_MATCHER = Pattern.compile(LONG_REGEX).matcher("");
 
 
 	public static String getString(HttpServletRequest request, String parameterName, Matcher matcher) throws InvalidInputException {

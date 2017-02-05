@@ -22,6 +22,10 @@ import javax.servlet.http.HttpServletResponse;
 @SuppressWarnings("unused")
 @WebServlet("/map/*")
 public class RequestMapper extends HttpServlet {
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 8448419236060298442L;
 	CommandMapper commandMapper = new CommandMapper();
 
 

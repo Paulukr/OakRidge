@@ -1,6 +1,7 @@
 package libray.test.model.dao;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import java.sql.SQLException;
 
@@ -9,14 +10,16 @@ import org.junit.Test;
 
 import library.model.dao.declaration.AuthorDao;
 import library.model.dao.implemantation.AuthorDaoImpl;
-import library.model.entity.Author;
 import library.model.exceptions.AuthorDublicateException;
+import library.model.service.AuthorService;
 
 public class AuthorDaoImplTest {
 	AuthorDao authorDao;
 	@Before
 	public void setUp() throws Exception {
 		authorDao = AuthorDaoImpl.getInstance();
+		AuthorService	serv = AuthorService.getInstance();
+		serv.restartBase();
 	}
 
 	@Test

@@ -1,15 +1,16 @@
-package library.model.service;
+package libray.test.model.service;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import java.sql.SQLException;
 
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import library.model.entity.Author;
 import library.model.exceptions.AuthorDublicateException;
+import library.model.service.AuthorService;
 
 public class AuthorServiceTest {
 	public AuthorService serv;
@@ -17,6 +18,7 @@ public class AuthorServiceTest {
 	@Before
 	public void setUpBeforeClass() throws Exception {
 		serv = AuthorService.getInstance();
+		serv.restartBase();
 	}
 
 	@Test
@@ -35,11 +37,14 @@ public class AuthorServiceTest {
 	@Test
 	public void testFindAuthorID() {
 		Author author3 = new Author("Yan", 0);
-
 		try {
 			assertEquals(1, serv.findAuthorID("Man").intValue());
-			serv.tryAddAuthor(author3);
+			assertEquals(null, serv.findAuthorID("Yan"));
+			assertEquals(-3, serv.tryAddAuthor(author3));
 			assertEquals(3, serv.findAuthorID("Yan").intValue());
+
+
+
 		} catch (SQLException | AuthorDublicateException e) {
 			fail(e.getMessage());
 		}

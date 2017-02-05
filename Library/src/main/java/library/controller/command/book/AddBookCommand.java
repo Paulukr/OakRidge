@@ -18,6 +18,7 @@ import library.model.exceptions.BookDublicateException;
 import library.model.exceptions.InvalidInputException;
 import library.model.service.AuthorService;
 import library.model.service.BookTitleService;
+import library.model.service.ServiceFactory;
 
 public class AddBookCommand implements Command {
     private static final Logger logger = Logger.getLogger(BookTitleDaoImpl.class);
@@ -27,20 +28,21 @@ public class AddBookCommand implements Command {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse httpServletResponse) {
-		BookTitleService service = BookTitleService.getInstance();
-		AuthorService authorService = AuthorService.getInstance();
+		ServiceFactory serviceFactory = ServiceFactory.getInstance();
+		BookTitleService bookTitleService = serviceFactory.getBookTitleService();
+		AuthorService authorService = serviceFactory.getAuthorService();
 		try {
-			BookTitle newBookTitle = service.getAddBookTitleRequestData(request);
+			BookTitle newBookTitle = bookTitleService.getAddBookTitleRequestData(request);
 			authorService.findOrAddAuthors(newBookTitle.getAuthors());
-			Integer bookId = service.tryAddBookTitle(newBookTitle);
+			Integer bookId = bookTitleService.tryAddBookTitle(newBookTitle);
 			if (bookId < 0) {
 				bookId = -bookId;
-				BookTitle bookTitle = service.getBookTitleByID(bookId);
+				BookTitle bookTitle = bookTitleService.getBookTitleByID(bookId);
 	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
 	            request.setAttribute(ViewConstants.ERROR_MESSAGE, null);
 	    		return UrlConstants.R_BOOK_ADD_SUCCESS;
 			}else {
-				BookTitle bookTitle = service.getBookTitleByID(bookId);
+				BookTitle bookTitle = bookTitleService.getBookTitleByID(bookId);
 	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
 	            request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_ALREADY_ADDED);
 				return UrlConstants.R_BOOK_ADD_ERROR;
@@ -53,7 +55,7 @@ public class AddBookCommand implements Command {
             request.setAttribute(ViewConstants.ERROR_MESSAGE, e.getMessage());
 			return UrlConstants.R_BOOK_ADD_ERROR;
 		} catch (AuthorDublicateException | BookDublicateException e) {
-            logger.error(ErrorList.ADD_BOOK, e);
+            logger.error(ErrorList.DuplicateBooks, e);
             request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {});
             request.setAttribute(ViewConstants.ERROR_MESSAGE, e.getMessage());
 			return UrlConstants.R_BOOK_ADD_ERROR;

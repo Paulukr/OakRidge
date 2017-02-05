@@ -65,7 +65,7 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 			preparedStatement.setString(1, author.getName());
 			try (ResultSet generatedKeys = preparedStatement.executeQuery()) {
 				if (generatedKeys.next()) {
-					return (generatedKeys.getInt(1));
+					return generatedKeys.getInt(1);
 				}
 				SQLException e = new SQLException("Insert failed, no ID obtained.");
 				logger.error(ErrorList.SelectAuthor, e);
@@ -76,7 +76,7 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 			throw new SQLException(ErrorList.SelectAuthor, e);
 		}
 	}
-
+	@Override
 	public Author getAuthorByID(int databaseId) throws SQLException {
 		Author author = new Author();
 		try (Connection connection = getdataSource().getConnection();
@@ -92,6 +92,17 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 		} catch (SQLException e) {
 			logger.error(ErrorList.SelectAuthor, e);
 			throw new SQLException(ErrorList.SelectAuthor, e);
+		}
+	}
+	public void restartBase()  {
+		try (Connection connection = getdataSource().getConnection();
+				PreparedStatement preparedStatement = connection.prepareStatement(DaoConstants.RECREATE_BASE);) {
+			try (ResultSet resultSet = preparedStatement.executeQuery()) {
+
+			}
+		} catch (SQLException e) {
+			logger.error(ErrorList.SelectAuthor, e);
+			throw new RuntimeException(e);
 		}
 	}
 }

@@ -10,5 +10,6 @@ public interface AuthorDao {
 	public Integer findAuthorID(String fullName) throws SQLException, AuthorDublicateException;
 	public Integer addAuthor(Author author) throws SQLException;
 	public Author getAuthorByID(int databaseId) throws SQLException;
+	public void restartBase();
 
 }

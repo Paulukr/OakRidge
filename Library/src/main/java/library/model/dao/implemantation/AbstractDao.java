@@ -22,64 +22,70 @@ import library.model.dao.DatabaseUtility;
 
 @SuppressWarnings("unused")
 public abstract class AbstractDao {
-//	protected ComboPooledDataSource dataSource = null;
+	private static final Logger logger = Logger.getLogger(AbstractDao.class);
+	protected AbstractDao() {
+	}
 
 
 
-    private static final Logger logger = Logger.getLogger(AbstractDao.class);
+	private static class LazyHolder {
+		private static final ComboPooledDataSource DATA_SOURCE = initDataSource();
 
-    private static class LazyHolder {
-        private static final ComboPooledDataSource DATA_SOURCE = initDataSource();
-        private static ComboPooledDataSource initDataSource() {
-    		try {
-    			return DatabaseUtility.getDataSource();
-    		} catch (PropertyVetoException e) {
-                logger.error(ErrorList.DataSourse, e);
-                throw new RuntimeErrorException(new Error(e), ErrorList.DataSourse);
-    		}
-    	}
-    }
-    public static ComboPooledDataSource getdataSource(){
-        return LazyHolder.DATA_SOURCE;
-    }
+		private static ComboPooledDataSource initDataSource() {
+			try {
+				return DatabaseUtility.getDataSource();
+			} catch (PropertyVetoException e) {
+				logger.error(ErrorList.DataSourse, e);
+				throw new RuntimeErrorException(new Error(e), ErrorList.DataSourse);
+			}
+		}
+	}
+
+	public static ComboPooledDataSource getdataSource() {
+		return LazyHolder.DATA_SOURCE;
+	}
 
 	protected void init() throws SQLException {
 		try {
 
-			Connection	connection = getdataSource().getConnection();
+			Connection connection = getdataSource().getConnection();
 		} catch (SQLException e) {
-            logger.error(ErrorList.DataSourse, e);
-            throw new SQLException(ErrorList.DataSourse, e);
+			logger.error(ErrorList.DataSourse, e);
+			throw new SQLException(ErrorList.DataSourse, e);
 		}
 	}
-	public ResultSet doQuery(Function<Connection,PreparedStatement> queryBuilder) throws SQLException {
-		try(Connection connection = getdataSource().getConnection()){
+
+	public ResultSet doQuery(Function<Connection, PreparedStatement> queryBuilder) throws SQLException {
+		try (Connection connection = getdataSource().getConnection()) {
 			PreparedStatement preparedStatement = queryBuilder.apply(connection);
 			ResultSet resultSet = preparedStatement.executeQuery();
 			return resultSet;
 		} catch (SQLException e) {
-            logger.error(ErrorList.DataSourse, e);
-            throw new SQLException(ErrorList.DataSourse, e);
+			logger.error(ErrorList.DataSourse, e);
+			throw new SQLException(ErrorList.DataSourse, e);
 		}
 	}
+
 	public void prepareStatement(String expression, Connection connection) throws SQLException {
 		try {
-			if(connection == null)
+			if (connection == null)
 				init();
-			PreparedStatement	preparedStatement = connection.prepareStatement(expression);
+			PreparedStatement preparedStatement = connection.prepareStatement(expression);
 		} catch (SQLException e) {
-            logger.error(ErrorList.DataSourse, e);
-            throw new SQLException(ErrorList.PreparingStatement, e);
+			logger.error(ErrorList.DataSourse, e);
+			throw new SQLException(ErrorList.PreparingStatement, e);
 		}
 	}
+
 	public void prepareStatementKeyGeneration(String expression, Connection connection) throws SQLException {
 		try {
-			if(connection == null)
+			if (connection == null)
 				init();
-			PreparedStatement	preparedStatement = connection.prepareStatement(expression, Statement.RETURN_GENERATED_KEYS);
+			PreparedStatement preparedStatement = connection.prepareStatement(expression,
+					Statement.RETURN_GENERATED_KEYS);
 		} catch (SQLException e) {
-            logger.error(ErrorList.DataSourse, e);
-            throw new SQLException(ErrorList.PreparingStatement, e);
+			logger.error(ErrorList.DataSourse, e);
+			throw new SQLException(ErrorList.PreparingStatement, e);
 		}
 	}
 }
