@@ -1,0 +1,47 @@
+package library.model.dao.implemantation;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import library.controller.ErrorList;
+import library.model.dao.DaoConstants;
+import library.model.dao.declaration.BookTypeDao;
+
+
+public class BookTypeDaoImpl extends AbstractDao implements BookTypeDao, BookTitleDao {
+
+	private static final Logger logger = Logger.getLogger(BookTypeDaoImpl.class);
+	protected BookTypeDaoImpl(){}
+    private static class LazyHolder {
+        private static final BookTypeDaoImpl INSTANCE = new BookTypeDaoImpl();
+    }
+    public static BookTypeDaoImpl getInstance(){
+        return LazyHolder.INSTANCE;
+    }
+
+	/* (non-Javadoc)
+	 * @see library.model.dao.implemantation.BookTitleDao#getBookTypes()
+	 */
+	@Override
+	public String[] getBookTypes() throws SQLException  {
+		List<String> types = new ArrayList<>();
+		try(	Connection connection = getdataSource().getConnection();
+				PreparedStatement preparedStatement = connection.prepareStatement(DaoConstants.BOOK_TYPES_GET);
+				ResultSet resultSet = preparedStatement.executeQuery();)
+		{
+			while (resultSet.next()) {
+				types.add(resultSet.getString(1));
+			}
+		} catch (SQLException e) {
+			logger.error(ErrorList.InsertTitle, e);
+			throw new SQLException(ErrorList.InsertTitle, e);
+		}
+		return types.toArray(new String[0]);
+	}
+}

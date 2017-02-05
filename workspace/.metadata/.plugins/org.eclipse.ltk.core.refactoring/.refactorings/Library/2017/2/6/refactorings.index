@@ -20,3 +20,13 @@
 1486210722842	Delete element
 1486211046161	Rename package 'library.controller.command.lib_commands'
 1486211076128	Rename package 'library.controller.command.bookTitle'
+1486229956112	Change method 'check_availability'
+1486230742576	Delete element
+1486230770011	Copy compilation unit
+1486230785382	Copy compilation unit
+1486249920101	Move compilation unit
+1486249927663	Move compilation unit
+1486249942204	Move compilation unit
+1486251576784	Extract interface 'BookTitleDao'
+1486251666064	Delete element
+1486253127167	Rename local variable 'authorDaoImpl'

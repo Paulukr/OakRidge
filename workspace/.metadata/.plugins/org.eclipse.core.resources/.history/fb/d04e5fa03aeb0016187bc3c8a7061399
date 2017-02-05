@@ -1,0 +1,55 @@
+package library.model.service;
+
+import static org.junit.Assert.*;
+
+import java.sql.SQLException;
+
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import library.model.entity.Author;
+
+public class AuthorServiceTest {
+	public AuthorService serv;
+	@Before
+	public void setUpBeforeClass() throws Exception {
+		serv = AuthorService.getInstance();
+	}
+
+	@Test
+	public void testGetInstance() {
+		Author author = new Author("Man", 1);
+		try {
+			assertEquals(author.getName(), serv.getAuthorByID(1).getName());
+		} catch (SQLException e) {
+			fail(e.getMessage());
+		}
+	}
+
+	@Test
+	public void testTryAddAuthor() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddAuthor() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindOrAddAuthors() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindAuthorID() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetAuthorByID() {
+		fail("Not yet implemented");
+	}
+
+}

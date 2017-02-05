@@ -2579,3 +2579,477 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2017-02-04 17:53:25,222 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2017-02-04 17:53:25,224 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-02-04 17:53:25,231 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:05:06,894 [Worker-462] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:05:06,918 [Worker-462] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:05:06,920 [Worker-462] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:05:06,942 [Worker-462] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:10:54,583 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:10:54,596 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:10:54,597 [Worker-461] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:10:54,643 [Worker-461] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:12:02,875 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:12:02,903 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:12:02,905 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:12:02,918 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:12:10,813 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:12:10,820 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:12:10,821 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:12:10,828 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:14:17,905 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:14:18,065 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:14:18,067 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:14:18,080 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:15:46,972 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:15:46,980 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:15:46,982 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:15:46,991 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:23:32,653 [Worker-472] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:23:32,660 [Worker-472] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:23:32,662 [Worker-472] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:23:32,669 [Worker-472] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:35:04,701 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:35:04,717 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:35:04,721 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:35:04,735 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:35:39,016 [Worker-473] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:35:39,023 [Worker-473] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:35:39,072 [Worker-473] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:35:39,079 [Worker-473] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:36:21,481 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:36:21,525 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:36:21,526 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:36:21,534 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:37:04,904 [Worker-426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:37:04,932 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:37:04,934 [Worker-426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:37:05,004 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:38:24,004 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:38:24,012 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:38:24,014 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:38:24,020 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:38:36,520 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:38:36,528 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:38:36,530 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:38:36,537 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:39:17,890 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:39:17,899 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:39:17,901 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:39:17,908 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:40:25,965 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:40:25,973 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:40:25,975 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:40:25,982 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:40:45,376 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:40:45,383 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:40:45,386 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:40:45,393 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:41:32,173 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:41:32,179 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:41:32,181 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:41:32,187 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:44:57,698 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:44:57,705 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:44:57,706 [Worker-459] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:44:57,712 [Worker-459] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:52:04,191 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:52:04,217 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:52:04,218 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:52:04,226 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:52:22,991 [Worker-426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:52:23,009 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:52:23,011 [Worker-426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:52:23,022 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:52:50,258 [Worker-474] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:52:50,265 [Worker-474] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:52:50,267 [Worker-474] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:52:50,273 [Worker-474] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 19:53:05,816 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:53:05,841 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 19:53:05,843 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 19:53:05,860 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:00:03,080 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:00:03,114 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:00:03,116 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:00:03,123 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:00:09,297 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:00:09,304 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:00:09,305 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:00:09,312 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:02:52,177 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:02:52,195 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:02:52,197 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:02:52,204 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:02:56,321 [Worker-474] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:02:56,345 [Worker-474] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:02:56,353 [Worker-474] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:02:56,370 [Worker-474] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:08:44,106 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:08:44,113 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:08:44,115 [Worker-469] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:08:44,121 [Worker-469] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:09:30,719 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:09:30,728 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:09:30,736 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:09:30,802 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:09:35,154 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:09:35,164 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:09:35,166 [Worker-464] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:09:35,172 [Worker-464] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:09:58,721 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:09:58,729 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:09:58,730 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:09:58,737 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:10:23,801 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:10:23,808 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:10:23,809 [Worker-468] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:10:23,816 [Worker-468] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:12:20,456 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:12:20,471 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:12:20,472 [Worker-476] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:12:20,479 [Worker-476] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 20:12:36,219 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:12:36,227 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 20:12:36,229 [Worker-471] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 20:12:36,235 [Worker-471] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 21:53:10,026 [Worker-484] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:53:10,106 [Worker-484] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 21:53:10,107 [Worker-484] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:53:10,115 [Worker-484] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 21:53:22,315 [Worker-484] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:53:22,324 [Worker-484] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 21:53:22,325 [Worker-484] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:53:22,333 [Worker-484] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 21:55:49,203 [Worker-482] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:55:49,210 [Worker-482] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-04 21:55:49,212 [Worker-482] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:55:49,219 [Worker-482] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 21:59:21,304 [Worker-481] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:59:21,324 [Worker-481] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 21:59:21,326 [Worker-481] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 21:59:21,333 [Worker-481] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 22:08:53,504 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 22:08:53,641 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 22:08:53,642 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 22:08:53,662 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 22:11:20,654 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 22:11:20,691 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 22:11:20,693 [Worker-475] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 22:11:20,702 [Worker-475] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 22:57:03,628 [Worker-484] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 22:57:03,639 [Worker-484] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 22:57:03,648 [Worker-484] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 22:57:03,720 [Worker-484] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 23:08:09,652 [Worker-491] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:08:09,848 [Worker-491] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 23:08:10,003 [Worker-491] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:08:10,023 [Worker-491] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 23:19:41,749 [Worker-496] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:19:41,756 [Worker-496] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 23:19:41,758 [Worker-496] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:19:41,764 [Worker-496] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 23:19:56,352 [Worker-493] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:19:56,360 [Worker-493] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 23:19:56,362 [Worker-493] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:19:56,368 [Worker-493] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-04 23:20:35,277 [Worker-493] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:20:35,285 [Worker-493] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-04 23:20:35,287 [Worker-493] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-04 23:20:35,304 [Worker-493] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:03:56,855 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:03:56,862 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:03:56,864 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:03:56,870 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:04:13,658 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:04:13,667 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:04:13,668 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:04:13,677 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:06:14,754 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:06:14,761 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:06:14,763 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:06:14,769 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:11:06,271 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:11:06,280 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:11:06,282 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:11:06,289 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:11:35,430 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:11:35,474 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:11:35,475 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:11:35,484 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:12:02,229 [Worker-499] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:12:02,237 [Worker-499] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:12:02,239 [Worker-499] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:12:02,245 [Worker-499] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:12:09,652 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:12:09,784 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:12:09,788 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:12:09,931 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:12:24,061 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:12:24,084 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:12:24,087 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:12:24,097 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:14:19,137 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:14:19,192 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:14:19,198 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:14:19,211 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:15:36,159 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:15:36,195 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:15:36,198 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:15:36,210 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:15:47,864 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:15:47,871 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:15:47,873 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:15:47,880 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:15:50,350 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:15:50,358 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:15:50,359 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:15:50,366 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:16:22,401 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:16:22,410 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:16:22,425 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:16:22,432 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:17:00,630 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:17:00,641 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:17:00,643 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:17:00,658 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:17:19,097 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:17:19,104 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:17:19,105 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:17:19,113 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:17:57,144 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:17:57,151 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:17:57,154 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:17:57,161 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:18:38,733 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:18:38,742 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:18:38,744 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:18:38,751 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:18:55,742 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:18:55,749 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:18:55,751 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:18:55,758 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:20:08,526 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:20:08,532 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:20:08,534 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:20:08,540 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:21:04,703 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:21:04,751 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:21:04,754 [Worker-501] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:21:04,761 [Worker-501] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:21:58,955 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:21:58,962 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:21:58,964 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:21:58,971 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:23:27,436 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:23:27,447 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:23:27,448 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:23:27,493 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:25:31,028 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:25:31,035 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:25:31,037 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:25:31,043 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:25:54,460 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:25:54,470 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:25:54,472 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:25:54,481 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:26:45,543 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:26:45,550 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:26:45,551 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:26:45,558 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:27:03,363 [Worker-510] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:27:03,374 [Worker-510] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:27:03,376 [Worker-510] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:27:03,384 [Worker-510] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:27:36,010 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:27:36,019 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:27:36,020 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:27:36,027 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:29:37,827 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:29:37,885 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:29:37,886 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:29:37,897 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:30:51,627 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:30:51,639 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:30:51,640 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:30:51,660 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:31:22,879 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:31:22,893 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:31:22,894 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:31:22,902 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:31:25,732 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:31:25,740 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:31:25,741 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:31:25,747 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:32:37,028 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:32:37,075 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:32:37,076 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:32:37,140 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:32:55,882 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:32:55,931 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:32:55,934 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:32:55,944 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:36:21,458 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:36:21,473 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:36:21,475 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:36:21,486 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:36:47,710 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:36:47,765 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:36:47,767 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:36:47,774 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:39:37,772 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:39:37,779 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:39:37,781 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:39:37,790 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:39:44,410 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:39:44,437 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:39:44,439 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:39:44,456 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:39:56,376 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:39:56,383 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:39:56,385 [Worker-503] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:39:56,393 [Worker-503] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:40:43,836 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:40:43,843 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:40:43,844 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:40:43,851 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:40:45,309 [Worker-499] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:40:45,316 [Worker-499] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:40:45,317 [Worker-499] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:40:45,323 [Worker-499] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:41:06,560 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:41:06,571 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:41:06,585 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:41:06,616 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:41:30,811 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:41:30,823 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:41:30,825 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:41:30,833 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:42:29,948 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:42:29,956 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:42:29,958 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:42:29,964 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:49:08,258 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:49:08,274 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:49:08,284 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:49:08,295 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:55:51,240 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:55:51,294 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:55:51,304 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:55:51,315 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:56:18,595 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:56:18,614 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 01:56:18,616 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:56:18,649 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:57:30,314 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:57:30,341 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:57:30,379 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:57:30,396 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:58:25,113 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:58:25,123 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:58:25,124 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:58:25,133 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:58:33,593 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:58:33,600 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:58:33,602 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:58:33,609 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:58:49,817 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:58:49,842 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:58:49,846 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:58:49,854 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 01:59:00,478 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:59:00,485 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 01:59:00,487 [Worker-508] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 01:59:00,493 [Worker-508] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:01:30,971 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:01:31,007 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:01:31,013 [Worker-500] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:01:31,041 [Worker-500] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:01:42,901 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:01:42,933 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:01:42,935 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:01:42,967 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:01:57,761 [Worker-505] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Android\eclipse\eewp\EGitHome\OakRidge\Library
+2017-02-05 02:01:57,764 [Worker-505] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2017-02-05 02:02:28,051 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:02:28,058 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:02:28,060 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:02:28,067 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:05:27,539 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:05:27,551 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:05:27,552 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:05:27,562 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:05:29,965 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:05:29,980 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:05:30,000 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:05:30,009 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:08:23,338 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:08:23,345 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:08:23,347 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:08:23,356 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:09:04,404 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:09:04,417 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:09:04,419 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:09:04,426 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:11:44,305 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:11:44,313 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:11:44,314 [Worker-507] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:11:44,321 [Worker-507] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:14:07,370 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:14:07,377 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:14:07,379 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:14:07,387 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:14:24,891 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:14:24,923 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:14:24,924 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:14:24,943 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:17:22,849 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:17:22,865 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:17:22,871 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:17:22,880 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:17:35,505 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:17:35,511 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:17:35,512 [Worker-509] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:17:35,519 [Worker-509] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:18:30,119 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:18:30,134 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:18:30,135 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:18:30,143 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:19:15,004 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:19:15,010 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:19:15,012 [Worker-511] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:19:15,018 [Worker-511] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:19:54,567 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:19:54,615 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:19:54,616 [Worker-512] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:19:54,626 [Worker-512] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:22:29,151 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:22:29,166 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:22:29,260 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:22:29,269 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:27:50,339 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:27:50,347 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:27:50,349 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:27:50,363 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:32:51,455 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:32:51,466 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:32:51,474 [Worker-506] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:32:51,488 [Worker-506] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:34:58,647 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:34:58,664 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:34:58,665 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:34:58,672 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:35:41,917 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:35:41,928 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:35:41,930 [Worker-505] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:35:41,985 [Worker-505] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:37:22,682 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:37:22,691 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-02-05 02:37:22,692 [Worker-490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:37:22,708 [Worker-490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:41:39,911 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:41:39,952 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:41:39,964 [Worker-502] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:41:39,997 [Worker-502] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-02-05 02:42:35,158 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:42:35,164 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-05 02:42:35,166 [Worker-516] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-02-05 02:42:35,172 [Worker-516] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources

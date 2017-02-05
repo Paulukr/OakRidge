@@ -1,0 +1,13 @@
+package library.model.dao.declaration;
+
+import java.sql.SQLException;
+
+import library.model.entity.Author;
+
+public interface AuthorDao {
+
+	public boolean checkAvailability(String fullName);
+	public Integer addAuthor(Author author) throws SQLException;
+	public Integer getNo(String fullName);
+
+}

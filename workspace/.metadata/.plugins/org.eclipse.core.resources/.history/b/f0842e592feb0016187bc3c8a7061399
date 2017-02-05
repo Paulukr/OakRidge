@@ -1,0 +1,28 @@
+package library.model.service;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import library.model.dao.declaration.AuthorDao;
+import library.model.dao.implemantation.AuthorDaoImpl;
+import library.model.entity.Author;
+
+public class AuthorService {
+	public int tryAddAuthor(Author author) throws SQLException, AuthorDublicateException {
+		AuthorDao authorDao = new AuthorDaoImpl();
+		Integer authorID = authorDao.findAuthorID(author.getName());
+		if (authorID != null)
+			return authorID;
+		else
+			return -addAuthor(author);
+	}
+
+	public int addAuthor(Author author) throws SQLException {
+		AuthorDao authorDao = new AuthorDaoImpl();
+		return authorDao.addAuthor(author);
+	}
+	public void findOrAddAuthors(java.util.List<Author> authorsList ) throws SQLException, AuthorDublicateException {
+		for (Author author : authorsList)
+			author.setDatabaseID(tryAddAuthor(author));
+	}
+}

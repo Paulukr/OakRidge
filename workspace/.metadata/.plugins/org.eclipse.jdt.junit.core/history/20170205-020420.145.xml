@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BookTitleDaoImplTest" project="Library" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="libray.test.model.dao.BookTitleDaoImplTest" time="1.43">
+    <testcase name="testAddBookTitle" classname="libray.test.model.dao.BookTitleDaoImplTest" time="1.342"/>
+    <testcase name="testGetBookTitle" classname="libray.test.model.dao.BookTitleDaoImplTest" time="0.068"/>
+    <testcase name="testStraitLookUpStringStringArray" classname="libray.test.model.dao.BookTitleDaoImplTest" time="0.0"/>
+    <testcase name="testStraitLookUpStringIntegerArray" classname="libray.test.model.dao.BookTitleDaoImplTest" time="0.02"/>
+  </testsuite>
+</testrun>

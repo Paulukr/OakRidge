@@ -1,0 +1,6 @@
+package library.model.service;
+
+public class Snippet {
+			Integer authorID =  findBookTitleID(bookTitle);
+}
+

@@ -1,0 +1,40 @@
+package libray.test.model.dao;
+
+import static org.junit.Assert.*;
+
+import java.sql.SQLException;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import library.model.dao.implemantation.AuthorDaoImpl;
+import library.model.exceptions.AuthorDublicateException;
+
+public class AuthorDaoImplTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testGetNo() {
+		AuthorDaoImpl authorDaoImpl = new AuthorDaoImpl();
+		try {
+			assertEquals(1, authorDaoImpl.findAuthorID("Man").intValue());
+			assertEquals(2, authorDaoImpl.findAuthorID("Lin").intValue());
+		} catch (SQLException | AuthorDublicateException e) {
+			fail(e.getMessage());
+		}
+
+	}
+
+	@Test
+	public void testAddAuthor() {
+		AuthorDaoImpl authorDaoImpl = new AuthorDaoImpl();
+		authorDaoImpl.addAuthor("Boyd");
+		assertEquals(1, authorDaoImpl.getNo("Man").intValue());
+		assertEquals(2, authorDaoImpl.getNo("Lin").intValue());
+		assertEquals(3, authorDaoImpl.getNo("Boyd").intValue());
+	}
+
+}

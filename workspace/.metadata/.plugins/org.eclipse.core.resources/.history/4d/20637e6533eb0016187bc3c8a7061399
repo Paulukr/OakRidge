@@ -1,0 +1,9 @@
+package library.model.dao.implemantation;
+
+import java.sql.SQLException;
+
+public interface BookTitleDao {
+
+	String[] getBookTypes() throws SQLException;
+
+}

@@ -1,0 +1,20 @@
+package library.model.dao.declaration;
+
+import java.sql.SQLException;
+
+import library.model.entity.Author;
+
+public interface AuthorDao {
+	//quik lookUp
+	// strait lookUp
+	// loose lookUp
+	//get authors id (names)
+	//get book id (name, authors)
+
+	//advanced lookUp
+	public boolean check_availability(String fullName);
+	public Integer addAuthor(Author author) throws SQLException;
+	public Integer getNo(String fullName);
+//	public Integer straitLookUp(String title, Integer[] authorsList);
+//	public boolean addBookTitle(BookTitle bookTitle);
+}
