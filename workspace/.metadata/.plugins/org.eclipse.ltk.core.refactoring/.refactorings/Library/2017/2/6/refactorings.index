@@ -35,3 +35,31 @@
 1486258575028	Move compilation unit
 1486272706254	Delete element
 1486272710414	Delete element
+1486272977235	Copy compilation unit
+1486275032506	Rename field 'BOOK_TITLE_SELECT'
+1486276743661	Rename field 'printYear'
+1486276884001	Rename field 'byuYear'
+1486276901198	Rename field 'Price'
+1486277331813	Rename field 'SelectBook'
+1486288518174	Rename field 'borrow_type'
+1486300072567	Rename field 'InsertTitle'
+1486300172296	Rename field 'AbsentResultSet'
+1486300182018	Rename field 'Absent_Result_Set'
+1486300207464	Rename field 'SelectAuthor'
+1486300226614	Rename field 'Select_Author'
+1486300234354	Rename field 'DuplicateAuthors'
+1486300237628	Rename field 'Duplicate_Authors'
+1486300248270	Rename field 'DuplicateBooks'
+1486300256364	Rename field 'Duplicate_Books'
+1486300301803	Rename field 'PreparingStatement'
+1486300308846	Rename field 'DataSourse'
+1486300317463	Rename field 'Data_Sourse'
+1486300327086	Rename field 'Preparing_Statement'
+1486300334953	Rename field 'ersx'
+1486301236136	Extract interface 'BookVolumeDao'
+1486309894534	Copy compilation unit
+1486309909603	Rename type 'GetBookFormCommand'
+1486312717448	Copy compilation unit
+1486313628119	Copy file
+1486314083548	Copy file
+1486314101641	Rename resource 'Header.jsp'

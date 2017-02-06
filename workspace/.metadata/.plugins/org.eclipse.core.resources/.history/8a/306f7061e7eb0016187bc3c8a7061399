@@ -1,0 +1,56 @@
+package library.controller.command.volume;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+
+import library.controller.ErrorList;
+import library.controller.UrlConstants;
+import library.controller.ViewConstants;
+import library.controller.command.Command;
+import library.model.dao.implemantation.BookTitleDaoImpl;
+import library.model.entity.BookTitle;
+import library.model.exceptions.InvalidInputException;
+import library.model.service.BookTitleService;
+import library.model.service.HttpRequestDataProcessor;
+import library.model.service.ServiceFactory;
+
+public class GetVolumeFormCommand implements Command {
+	private static final Logger logger = Logger.getLogger(BookTitleDaoImpl.class);
+
+	@Override
+	public String execute(HttpServletRequest request, HttpServletResponse httpServletResponse) {
+		ServiceFactory serviceFactory = ServiceFactory.getInstance();
+		BookTitleService bookTitleService = serviceFactory.getBookTitleService();
+
+		int bookTitleIndex = 0;
+		try {
+			bookTitleIndex = HttpRequestDataProcessor.getInt(request, ViewConstants.TITLE_INSTANSE_INDEX);
+		} catch (InvalidInputException e) {
+			logger.error(ErrorList.INVALID_INPUT, e);
+			request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_NOT_CHOSEN + e.getMessage());
+			return UrlConstants.C_GET_BOOK_SEARCH_FORM;
+		}
+
+
+		Object attribute = request.getAttribute(ViewConstants.TITLE_INSTANSE_LIST);
+		if (attribute != null && attribute instanceof List) {
+			@SuppressWarnings("unchecked")
+			List<BookTitle> bookTitles = (List<BookTitle>) attribute;
+			if (bookTitleIndex < bookTitles.size()){
+				BookTitle bookTitle = bookTitles.get(bookTitleIndex);
+				bookTitles.clear();
+				bookTitles.add(bookTitle);
+				return UrlConstants.C_GET_BOOK_SEARCH_FORM;
+			}
+
+		}
+		request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_NOT_CHOSEN);
+		return UrlConstants.C_GET_BOOK_SEARCH_FORM;
+	}
+
+}

@@ -1,0 +1,40 @@
+package library.model.entity;
+
+public class BookVolume {
+	int byuYear;
+	double Price;
+	String title;
+	int titleNo;
+	int no;
+	public int getPrintYear() {
+		return byuYear;
+	}
+	public void setPrintYear(int printYear) {
+		this.byuYear = printYear;
+	}
+	public double getPrice() {
+		return Price;
+	}
+	public void setPrice(double d) {
+		Price = d;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public int getTitleNo() {
+		return titleNo;
+	}
+	public void setTitleNo(int titleNo) {
+		this.titleNo = titleNo;
+	}
+	public int getNo() {
+		return no;
+	}
+	public void setNo(int no) {
+		this.no = no;
+	}
+
+}

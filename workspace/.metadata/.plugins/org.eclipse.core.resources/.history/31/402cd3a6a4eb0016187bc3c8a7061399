@@ -1,0 +1,18 @@
+package library.controller;
+
+public class ErrorList {
+	public static final String ersx = " error";
+	public static final String DataSourse = "Data soure" + ersx;
+	public static final String Preparing_Statement = "Preparing statement" + ersx;
+	public static final String INSERT_TITLE = "Insert title" + ersx;
+	public static final String SELECT_AUTHOR = "Select author" + ersx;
+	public static final String DUPLICATE_AUTHORS = "Duplicate authors:";
+	public static final String DUPLICATE_BOOKS = "Duplicate books: ";
+	public static final String ABSENT_RESULT_SET = "Absent result set from prepared statement" + ersx;
+	public static final String SELECT_BOOK = "Select book";
+	public static final String SELECT_VOLUME = "Select volume";
+	public static final String ADD_BOOK = "ADD_BOOK";
+	public static final String BOOK_ALREADY_ADDED = "BOOK_ALREADY_ADDED";
+	public static final String INSERT_FAILED = "BOOK_ALREADY_ADDED";
+
+}

@@ -1,0 +1,34 @@
+package library.model.dao.implemantation;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class BookVolumeDaoTest {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@Test
+	public void testGetVolumePool() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetAvaluableQuantity() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testGetBookVolume() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddBookVolume() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -17,9 +17,10 @@
 		<c:out value="${fullName}"></c:out>
 	</h1>
 	<p align="center">
-	PageNotFound 
+	PageNotFound
 	<c:out value="${requestScope['javax.servlet.forward.request_uri']}"></c:out>
 	</p>
+<%@include file="../../WEB-INF/navigation/Footer.jsp"%>
 </body>
 </html>
 <%-- <% String sharedS = (String)request.getAttribute("sharedId"); %> --%>
