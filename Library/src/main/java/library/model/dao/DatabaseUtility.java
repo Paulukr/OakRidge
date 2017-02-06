@@ -15,7 +15,7 @@ public class DatabaseUtility {
 		try {
 			Class.forName("org.postgresql.Driver");
 		} catch (ClassNotFoundException e) {
-			logger.error(ErrorList.DataSourse, e);
+			logger.error(ErrorList.DATA_SOURSE, e);
 			throw new RuntimeException(e);
 		}
 		ComboPooledDataSource cpds = new ComboPooledDataSource();

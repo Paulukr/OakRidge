@@ -52,7 +52,13 @@ public class BookTitleService {
 	}
 
 	public BookTitle getBookTitleByID(int id) throws SQLException {
-		return bookTitleDao.getBookTitle(id);
+		BookTitle bookTitle = bookTitleDao.getBookTitle(id);
+		AuthorService aService = AuthorService.getInstance();
+		for (int i = 0; i < bookTitle.getAuthors().size(); i++) {
+			Author author = aService.getAuthorByID(bookTitle.getAuthors().get(i).getDatabaseID());
+			bookTitle.getAuthors().set(i, author);
+		}
+		return bookTitle;
 	}
 
 	public Integer findBookTitleID(BookTitle bookTitle) throws SQLException, BookDublicateException {

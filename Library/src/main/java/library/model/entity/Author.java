@@ -1,12 +1,12 @@
 package library.model.entity;
 
 public class Author {
-	String fullName;
-	int databaseID;
+	private String fullName;
+	private int databaseID;
 
 	public Author() {
 	}
-	
+
 	public Author(String fullName, int databaseID) {
 		this.fullName = fullName;
 		this.databaseID = databaseID;

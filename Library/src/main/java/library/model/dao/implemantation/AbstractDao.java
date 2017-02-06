@@ -35,8 +35,8 @@ public abstract class AbstractDao {
 			try {
 				return DatabaseUtility.getDataSource();
 			} catch (PropertyVetoException e) {
-				logger.error(ErrorList.DataSourse, e);
-				throw new RuntimeErrorException(new Error(e), ErrorList.DataSourse);
+				logger.error(ErrorList.DATA_SOURSE, e);
+				throw new RuntimeErrorException(new Error(e), ErrorList.DATA_SOURSE);
 			}
 		}
 	}
@@ -50,8 +50,8 @@ public abstract class AbstractDao {
 
 			Connection connection = getdataSource().getConnection();
 		} catch (SQLException e) {
-			logger.error(ErrorList.DataSourse, e);
-			throw new SQLException(ErrorList.DataSourse, e);
+			logger.error(ErrorList.DATA_SOURSE, e);
+			throw new SQLException(ErrorList.DATA_SOURSE, e);
 		}
 	}
 
@@ -61,8 +61,8 @@ public abstract class AbstractDao {
 			ResultSet resultSet = preparedStatement.executeQuery();
 			return resultSet;
 		} catch (SQLException e) {
-			logger.error(ErrorList.DataSourse, e);
-			throw new SQLException(ErrorList.DataSourse, e);
+			logger.error(ErrorList.DATA_SOURSE, e);
+			throw new SQLException(ErrorList.DATA_SOURSE, e);
 		}
 	}
 
@@ -72,8 +72,8 @@ public abstract class AbstractDao {
 				init();
 			PreparedStatement preparedStatement = connection.prepareStatement(expression);
 		} catch (SQLException e) {
-			logger.error(ErrorList.DataSourse, e);
-			throw new SQLException(ErrorList.PreparingStatement, e);
+			logger.error(ErrorList.DATA_SOURSE, e);
+			throw new SQLException(ErrorList.PREPARING_STATEMENT, e);
 		}
 	}
 
@@ -84,8 +84,8 @@ public abstract class AbstractDao {
 			PreparedStatement preparedStatement = connection.prepareStatement(expression,
 					Statement.RETURN_GENERATED_KEYS);
 		} catch (SQLException e) {
-			logger.error(ErrorList.DataSourse, e);
-			throw new SQLException(ErrorList.PreparingStatement, e);
+			logger.error(ErrorList.DATA_SOURSE, e);
+			throw new SQLException(ErrorList.PREPARING_STATEMENT, e);
 		}
 	}
 }

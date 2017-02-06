@@ -20,9 +20,9 @@ import library.model.service.AuthorService;
 import library.model.service.BookTitleService;
 import library.model.service.ServiceFactory;
 
-public class AddBookCommand implements Command {
+public class GetBoookFindForm implements Command {
     private static final Logger logger = Logger.getLogger(BookTitleDaoImpl.class);
-	public AddBookCommand() {
+	public GetBoookFindForm() {
 		// TODO Auto-generated constructor stub
 	}
 

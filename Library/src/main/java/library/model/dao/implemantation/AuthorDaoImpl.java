@@ -42,8 +42,8 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 						result = resultSet.getInt(1);
 					}
 					if (duplicateList != null){
-						AuthorDublicateException e = new AuthorDublicateException(ErrorList.DuplicateAuthors + duplicateList);
-						logger.error(ErrorList.DuplicateAuthors + duplicateList, e);
+						AuthorDublicateException e = new AuthorDublicateException(ErrorList.DUPLICATE_AUTHORS + duplicateList);
+						logger.error(ErrorList.DUPLICATE_AUTHORS + duplicateList, e);
 						throw e;
 					}
 
@@ -52,8 +52,8 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 				return null;
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.SelectAuthor, e);
-			throw new SQLException(ErrorList.SelectAuthor, e);
+			logger.error(ErrorList.SELECT_AUTHOR, e);
+			throw new SQLException(ErrorList.SELECT_AUTHOR, e);
 		}
 	}
 
@@ -68,12 +68,12 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 					return generatedKeys.getInt(1);
 				}
 				SQLException e = new SQLException("Insert failed, no ID obtained.");
-				logger.error(ErrorList.SelectAuthor, e);
+				logger.error(ErrorList.SELECT_AUTHOR, e);
 				throw e;
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.SelectAuthor, e);
-			throw new SQLException(ErrorList.SelectAuthor, e);
+			logger.error(ErrorList.SELECT_AUTHOR, e);
+			throw new SQLException(ErrorList.SELECT_AUTHOR, e);
 		}
 	}
 	@Override
@@ -90,8 +90,8 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 				return null;
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.SelectAuthor, e);
-			throw new SQLException(ErrorList.SelectAuthor, e);
+			logger.error(ErrorList.SELECT_AUTHOR, e);
+			throw new SQLException(ErrorList.SELECT_AUTHOR, e);
 		}
 	}
 	public void restartBase()  {
@@ -101,7 +101,7 @@ public class AuthorDaoImpl extends AbstractDao implements AuthorDao {
 
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.SelectAuthor, e);
+			logger.error(ErrorList.SELECT_AUTHOR, e);
 			throw new RuntimeException(e);
 		}
 	}

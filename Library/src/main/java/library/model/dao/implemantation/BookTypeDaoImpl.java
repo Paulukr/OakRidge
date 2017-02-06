@@ -38,8 +38,8 @@ public class BookTypeDaoImpl extends AbstractDao implements BookTypeDao {
 				types.add(resultSet.getString(1));
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.InsertTitle, e);
-			throw new SQLException(ErrorList.InsertTitle, e);
+			logger.error(ErrorList.INSERT_TITLE, e);
+			throw new SQLException(ErrorList.INSERT_TITLE, e);
 		}
 		return types.toArray(new String[0]);
 	}

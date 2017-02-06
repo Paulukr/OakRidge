@@ -45,8 +45,8 @@ public class BookTitleDaoImpl extends AbstractDao implements BookTitleDao {
 						result = resultSet.getInt(1);
 					}
 					if (duplicateList != null){
-						BookDublicateException e = new BookDublicateException(ErrorList.DuplicateBooks + duplicateList);
-						logger.error(ErrorList.DuplicateBooks + duplicateList, e);
+						BookDublicateException e = new BookDublicateException(ErrorList.DUPLICATE_BOOKS + duplicateList);
+						logger.error(ErrorList.DUPLICATE_BOOKS + duplicateList, e);
 						throw e;
 					}
 					return result;
@@ -54,8 +54,8 @@ public class BookTitleDaoImpl extends AbstractDao implements BookTitleDao {
 				return null;
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.SelectBook, e);
-			throw new SQLException(ErrorList.SelectAuthor, e);
+			logger.error(ErrorList.SELECT_BOOK, e);
+			throw new SQLException(ErrorList.SELECT_AUTHOR, e);
 		}
 	}
 
@@ -63,7 +63,7 @@ public class BookTitleDaoImpl extends AbstractDao implements BookTitleDao {
 	public BookTitle getBookTitle(int databaseID) throws SQLException {
 		BookTitle bookTitle = new BookTitle();
 		try (Connection connection = getdataSource().getConnection();
-				PreparedStatement preparedStatement = connection.prepareStatement(DaoConstants.BOOK_TITLE_SELECT);) {
+				PreparedStatement preparedStatement = connection.prepareStatement(DaoConstants.BOOK_TITLE_GET_INSTANCE);) {
 
 			preparedStatement.setInt(1, databaseID);
 			try (ResultSet resultSet = preparedStatement.executeQuery()) {
@@ -84,8 +84,8 @@ public class BookTitleDaoImpl extends AbstractDao implements BookTitleDao {
 			}
 
 		} catch (SQLException e) {
-			logger.error(ErrorList.InsertTitle, e);
-			throw new SQLException(ErrorList.InsertTitle, e);
+			logger.error(ErrorList.INSERT_TITLE, e);
+			throw new SQLException(ErrorList.INSERT_TITLE, e);
 		}
 		return bookTitle;
 	}
@@ -111,8 +111,8 @@ public class BookTitleDaoImpl extends AbstractDao implements BookTitleDao {
 				}
 			}
 		} catch (SQLException e) {
-			logger.error(ErrorList.InsertTitle, e);
-			throw new SQLException(ErrorList.InsertTitle, e);
+			logger.error(ErrorList.INSERT_TITLE, e);
+			throw new SQLException(ErrorList.INSERT_TITLE, e);
 		}
 		return book.getDatabaseID();
 	}

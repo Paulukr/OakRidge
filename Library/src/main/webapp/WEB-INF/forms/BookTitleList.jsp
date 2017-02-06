@@ -13,22 +13,43 @@
 		<h3 align="center">Following titles available</h3>
 
 	<c:if test="${title_instanse_list != null}">
-		<!-- 		<table border="1" width="400" height="250" align="center"> -->
-		<table border="1" align="left">
+				<table border="1" width="800"  align="center">
+<!-- 		<table border="1" align="left" height="250"> -->
 			<tr>
 				<th align="center"><b>No</b></th>
-				<th align="center"><b>Title</b></th>
+				<th align="center"><b>Author</b></th>
+				<th align="center"><b>Book Title</b></th>
+				<th align="center"><b>Year</b></th>
 				<th align="center"><b>Action</b></th>
 			</tr>
 			<c:forEach var="title_instanse" items="${title_instanse_list}"
 				varStatus="loop">
 				<td style="text-indent: 10px"><c:out value="${loop.index + 1}" /></td>
 				<td style="text-indent: 10px"><c:out
+						value="${title_instanse.authorsList}" /></td>
+				<td style="text-indent: 10px"><c:out
 						value="${title_instanse.title}" /></td>
+				<td style="text-indent: 10px"><c:out
+						value="${title_instanse.publishedYear}" /></td>
 				<td style="text-indent: 10px">
-					 <a href="NewFile.html?a=${loop.index + 1}">borrow</a>
+					<p align="left">
+						<a href="
+							<c:out
+ 									value="${pageContext.request.contextPath}${UrlConstants.C_GET_VOLUME_ADD_FORM}
+										?${ViewConstants.TITLE_INSTANSE_INDEX}=${loop.index + 1}">
+							</c:out>">
+							<b>add new volume</b>
+						</a>
+					</p>
 					 <br>
-					 <a href="NewFile.html?a=${loop.index + 1}">add volume</a>
+					  <a href="
+							<c:out
+ 									value="${pageContext.request.contextPath}${UrlConstants.C_BOOK_BORROW}
+										?${ViewConstants.TITLE_INSTANSE_INDEX}=${loop.index + 1}">
+							</c:out>">
+							<b>Borrow</b>
+						</a>
+				</td>
 			</c:forEach>
 		</table>
 		<br>

@@ -1,8 +1,8 @@
 package library.model.service;
 
 public class ServiceFactory {
-	protected AuthorService authorService;
-	protected BookTitleService bookTitleService;
+	protected AuthorService authorService = AuthorService.getInstance();
+	protected BookTitleService bookTitleService = BookTitleService.getInstance();
 
     private static class LazyHolder {
         private static final ServiceFactory INSTANCE = new ServiceFactory();

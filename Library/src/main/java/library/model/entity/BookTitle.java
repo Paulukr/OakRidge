@@ -21,7 +21,7 @@ public class BookTitle {
 		this.typeNo = typeNo;
 
 	}
-	
+
 	public void setAuthor(String authorName) {
 		authors.add(new Author(authorName, 0));
 	}
@@ -38,6 +38,13 @@ public class BookTitle {
 		return authors;
 	}
 
+	public String getAuthorsList() {
+		StringBuilder sBuilder = new StringBuilder();
+		for (Author author : authors) {
+			sBuilder.append(author.getName() + "; ");
+		}
+		return sBuilder.toString();
+	}
 	public void setAuthors(java.util.List<Author> authors) {
 		this.authors = authors;
 	}
@@ -73,5 +80,5 @@ public class BookTitle {
 	public void setDatabaseID(int databaseID) {
 		this.databaseID = databaseID;
 	}
-	
+
 }

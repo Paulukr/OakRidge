@@ -11,6 +11,7 @@ import library.controller.command.book.AddVolumeCommand;
 import library.controller.command.book.GetBookFormCommand;
 import library.controller.command.book.PageNotFoundCommand;
 import library.controller.command.book.SearchBookCommand;
+import library.controller.command.volume.GetVolumeFormCommand;
 import library.model.dao.implemantation.AbstractDao;
 
 public class CommandMapper {
@@ -29,14 +30,21 @@ public class CommandMapper {
 		// commandsMap.put(UrlHolder.PATH_LOGOUT, new CommandMock());
 		getCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new PageNotFoundCommand());
 		getCommandsMap.put("test", new PageNotFoundCommand());
+
+		getCommandsMap.put(UrlConstants.C_BOOK_SEARCH, new SearchBookCommand());
 		getCommandsMap.put(UrlConstants.C_BOOK_SEARCH, new SearchBookCommand());
 		getCommandsMap.put(UrlConstants.C_GET_BOOK_ADD_FORM, new GetBookFormCommand());
+		getCommandsMap.put(UrlConstants.C_GET_VOLUME_ADD_FORM, new GetVolumeFormCommand());
+
+
+
 	}
 
 	private void postMapInit() {
 		postCommandsMap.put(UrlConstants.PAGE_NOT_FOUND, new PageNotFoundCommand());
 		postCommandsMap.put(UrlConstants.C_BOOK_ADD, new AddBookCommand());
 		postCommandsMap.put(UrlConstants.C_VOLUME_ADD, new AddVolumeCommand());
+		getCommandsMap.put(UrlConstants.C_GET_VOLUME_ADD_FORM, new GetVolumeFormCommand());
 
 	}
 

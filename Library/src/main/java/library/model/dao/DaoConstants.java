@@ -6,7 +6,7 @@ public class DaoConstants {
     public static final String RECREATE_BASE = "SELECT refillDatabase()";
     public static final String BOOK_TITLE_ADD = " INSERT INTO Title_table ( Title_name, Type_no, Title_year_published, Author_no)"
     		+ " VALUES(?, ?, ?, ?)" +"RETURNING Title_no";
-    public static final String BOOK_TITLE_SELECT = " SELECT Title_name, Type_no, Title_year_published, Author_no  FROM Title_table"
+    public static final String BOOK_TITLE_GET_INSTANCE = " SELECT Title_name, Type_no, Title_year_published, Author_no  FROM Title_table"
     		+ " WHERE Title_no = ?";
     public static final String BOOK_TITLE_FIND_SIGNATURE = "SELECT Title_no FROM title_table WHERE Title_name = ? AND Author_no = ? ";
     public static final String BOOK_TYPES_GET = "SELECT Type_description FROM Type_table ORDER BY Type_no ASC";
@@ -17,14 +17,14 @@ public class DaoConstants {
     public static final String AUTHOR_GET_NO = "SELECT Author_no FROM Author_table WHERE Author_name = ?" ;
     public static final String AUTHOR_ADD = " INSERT INTO Author_table ( Author_name ) VALUES(?)" +"RETURNING Author_no";
     public static final String AUTHOR_GET_INSTANCE = "SELECT Author_name FROM Author_table WHERE Author_no = ?" ;
-    /*
-    public static final String FIND_ALL = "find.all";
-    public static final String FIND_BY_TUTOR = "find.by.tutor";
-    public static final String FIND_BY_STUDENT = "find.by.student";
-    public static final String FIND_UNFOLLOW = "find.unfollow";
-    public static final String FIND_BY_USER_COURSE = "find.by.user.course";
-    public static final String FIND_ONE_BY_EMAIL = "find.by.email";
-    */
+
+    //Volume
+    public static final String BOOK_VOLUME_FIELDS = "Vol_price, Vol_buy_year, Vol_available, Title_no, Borrow_type_available ";
+    public static final String BOOK_VOLUME_GET_INSTANCE = "SELECT " + BOOK_VOLUME_FIELDS  + " FROM Volume_table WHERE Volume_no = ?";
+    public static final String BOOK_VOLUME_ADD = " INSERT INTO Volume_table ( " + BOOK_VOLUME_FIELDS + ") VALUES(?, ?, ?, ?, ?)" +"RETURNING Title_no";
+    public static final String BOOK_VOLUME_GET_PULL = "SELECT " + BOOK_VOLUME_FIELDS + " FROM Volume_table WHERE Title_no = ?";
+    public static final String BOOK_VOLUME_GET_COUNT_AVAILABLE = "SELECT COUNT (Volume_no)"
+    		+ " FROM Volume_table WHERE Title_no = ? AND Vol_available = 1";
 }
 /*
  * create= INSERT INTO courses ( name, about, start_date, end_date, tutor_id) \
