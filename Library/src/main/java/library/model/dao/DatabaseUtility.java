@@ -21,7 +21,7 @@ public class DatabaseUtility {
 		ComboPooledDataSource cpds = new ComboPooledDataSource();
 		cpds.setJdbcUrl("jdbc:postgresql://localhost:5432/library");
 		cpds.setUser("postgres");
-		cpds.setPassword("postgresql");
+		cpds.setPassword("postgres");
 
 		// Optional Settings
 		cpds.setInitialPoolSize(5);
