@@ -4438,3 +4438,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact postgresql:po
 2017-05-06 13:02:05,166 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2017-05-06 13:02:05,182 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-06 13:02:05,182 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
+2017-05-06 13:05:44,005 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-06 13:05:44,009 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-06 13:05:44,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-06 13:05:44,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Android\eclipse\eewp\EGitHome\OakRidge\Library\src\test\resources
