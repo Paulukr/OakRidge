@@ -39,28 +39,31 @@ public class JItemDaoImpl extends AbstractDao implements JItemDao {
 				if (!resultSet.next())
 					return null;
 				jitem.setName(resultSet.getString(1));
-			}
+				jitem.setOrderNo(databaseID);
 
 		} catch (SQLException e) {
 			logger.error(ErrorList.INSERT_TITLE, e);
 			throw new SQLException(ErrorList.INSERT_TITLE, e);
 		}
+		}
 		return jitem;
+
 	}
 	@Override
-	public JItem getJItemDispatch(int jItemNo, int quantity) throws SQLException {
-		JItem jitem = new JItem();
+	public int getJItemDispatch(int jItemNo, int quantity) throws SQLException {
+		int result = 0;
 		try (Connection connection = getdataSource().getConnection();
-				PreparedStatement preparedStatement = connection.prepareStatement(DaoConstants.JITEM_GET_INSTANCE);) {
+				PreparedStatement preparedStatement = connection.prepareStatement(DaoConstants.JITEM_GET_DISPATCH);) {
 
 			preparedStatement.setInt(1, jItemNo);
-			preparedStatement.setInt(1, quantity);
+			preparedStatement.setInt(2, quantity);
 
 			try (ResultSet generatedKeys = preparedStatement.executeQuery()) {
 				if (generatedKeys.next()) {
-					//book.setDatabaseID(generatedKeys.getInt(1));
-				} else {
-					throw new SQLException("Creating user failed, no ID obtained.");
+					result = generatedKeys.getInt(1);
+				}
+				else {
+					throw new SQLException("Creating Dispatch failed, no ID obtained.");
 				}
 			}
 
@@ -68,6 +71,6 @@ public class JItemDaoImpl extends AbstractDao implements JItemDao {
 			logger.error(ErrorList.INSERT_TITLE, e);
 			throw new SQLException(ErrorList.INSERT_TITLE, e);
 		}
-		return jitem;
+		return result;
 	}
 }

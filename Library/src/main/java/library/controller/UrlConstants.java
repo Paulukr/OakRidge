@@ -50,6 +50,7 @@ public class UrlConstants {
     public static final String C_GET_JITEM_SEARCH = COMMAND + LIBRARIAN + ITEM + SEARCH;
     public static final String C_JITEM_DISPATCH = COMMAND + LIBRARIAN + ITEM + DISPATCH;
     public static final String JHOME = "/JItem.jsp";
+    public static final String JITEMRESULT = "/JItemResult.jsp";
 
 
 

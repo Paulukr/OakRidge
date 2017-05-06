@@ -21,6 +21,7 @@ public class ViewConstants {
 	public static final String JITEM_MODEL_INDEX = "ITEM_MODEL_INDEX";
 	public static final String JITEM_INSTANSE = "Jitem_instance";
 	public static final String JITEM_QUANTITY = "Jitem_quantity";
+	public static final String JITEM_DISPATCH_RESULT = "Jitem_dispatch_result";
 
 
 

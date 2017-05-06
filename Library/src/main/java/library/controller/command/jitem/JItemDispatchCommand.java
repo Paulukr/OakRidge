@@ -1,8 +1,5 @@
 package library.controller.command.jitem;
 
-import java.sql.SQLException;
-import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -13,10 +10,7 @@ import library.controller.UrlConstants;
 import library.controller.ViewConstants;
 import library.controller.command.Command;
 import library.model.dao.implemantation.BookTitleDaoImpl;
-import library.model.entity.BookTitle;
-import library.model.entity.JItem;
 import library.model.exceptions.InvalidInputException;
-import library.model.service.BookTitleService;
 import library.model.service.HttpRequestDataProcessor;
 import library.model.service.JItemService;
 import library.model.service.ServiceFactory;
@@ -31,18 +25,14 @@ public class JItemDispatchCommand implements Command {
 		try {
 			int jitemDatabaseID = HttpRequestDataProcessor.getInt(request, ViewConstants.JITEM_MODEL_INDEX);
 			int jItemQuantity = HttpRequestDataProcessor.getInt(request, ViewConstants.JITEM_QUANTITY);
-			if (jItemQuantity > 0) {
-				if (jItemService.getJItemByID(jItemQuantity) == null)
-					return UrlConstants.JHOME;
-			}
-			else
-				return UrlConstants.JHOME;
+
+			int result = jItemService.getJItemDispatch(jitemDatabaseID, jItemQuantity);
+			request.setAttribute(ViewConstants.JITEM_DISPATCH_RESULT, result);
+			return UrlConstants.JITEMRESULT;
+
 		} catch (InvalidInputException e) {
 			logger.error(ErrorList.INVALID_INPUT, e);
 			request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_NOT_CHOSEN + e.getMessage());
-		} catch (SQLException e) {
-			logger.error(ErrorList.INTERNAL_ERROR, e);
-			request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.INTERNAL_ERROR + e.getMessage());
 		}
 		logger.error(ErrorList.INVALID_INPUT);
 		return UrlConstants.C_GET_BOOK_SEARCH_FORM;

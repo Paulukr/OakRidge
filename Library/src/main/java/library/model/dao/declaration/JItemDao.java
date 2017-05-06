@@ -19,5 +19,5 @@ public interface JItemDao{
 	JItem getJItemName(int databaseID) throws SQLException;
 //	Integer addBookTitle4(BookTitle book) throws SQLException;
 
-	JItem getJItemDispatch(int JItemNo, int databaseID) throws SQLException;
+	int getJItemDispatch(int JItemNo, int databaseID) throws SQLException;
 }

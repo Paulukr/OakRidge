@@ -28,8 +28,10 @@ public class DaoConstants {
 
 
     //J
-    public static final String JITEM_GET_INSTANCE = "Select \"JItem_name\" from \"JItem_table\""// where "Order_No" = 1;";
+    public static final String JITEM_GET_INSTANCE = "Select \"JItem_name\" from \"JItem_table\""
     		+ " WHERE \"Order_No\" = ?;";
+    public static final String JITEM_GET_DISPATCH = " INSERT into \"JItem_dispatch\""
+    		+ " (\"JItem_No\",\"Dispatch_Quantity\") values (?, ?)" +" RETURNING \"Dispatch_No\"";
 }
 /*
  * create= INSERT INTO courses ( name, about, start_date, end_date, tutor_id) \
