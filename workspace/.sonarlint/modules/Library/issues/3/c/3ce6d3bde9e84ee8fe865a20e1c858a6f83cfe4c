@@ -1,9 +1,0 @@
-
-Usquid:S1135m"2Complete the task associated to this TODO comment.(¹“ù”üÿÿÿÿ8ı”ÖÓŸ+
-Esquid:S14818".Remove this unused "bookTitle" local variable.(ôÍ”
-Hsquid:S1612'",Replace this lambda with a method reference.(®ªìÿÿÿÿÿ
-bsquid:UselessImportCheck"?Remove this unused import 'javax.print.DocFlavor.INPUT_STREAM'.(¤Ê8
-Tsquid:S18548"=Remove this useless assignment to local variable "bookTitle".(ôÍ”
-Usquid:S1135)"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8Ü°¾şŸ+
-Csquid:S1166("%Either log or rethrow this exception.(É®£8Ü°¾şŸ+
-Fsquid:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ü°¾şŸ+

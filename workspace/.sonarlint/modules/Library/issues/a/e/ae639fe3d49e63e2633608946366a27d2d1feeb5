@@ -1,20 +1,22 @@
 
-]
-squid:S106.";Replace this usage of System.out or System.err by a logger.(¤ÌÅƒùÿÿÿÿ8ÌşÈŸ+
-=squid:S1989O"&Add a "try/catch" block for "forward".(€µ²¥
-\squid:UselessImportCheck"8Remove this unused import 'javax.activation.CommandMap'.(°ß×
-Csquid:S1481M",Remove this unused "resultB" local variable.(äù•
-gsquid:CommentedOutCodeLine2"<This block of commented-out lines of code should be removed.(Õ–¸üÿÿÿÿ
+hsquid:UselessImportCheck"?Remove this unused import 'javax.activation.MailcapCommandMap'.(Ì€çÚúÿÿÿÿ
+\squid:UselessImportCheck"8Remove this unused import 'javax.activation.CommandMap'.(°ß×
+Dsquid:S19893"&Add a "try/catch" block for "forward".(€µ²¥8ƒÓ£®Ÿ+
+Fsquid:S1948"/Make "commandMapper" transient or serializable.(×‰ª¡
+gsquid:S1192/"IDefine a constant instead of duplicating this literal "sharedId" 3 times.(ßäò8ƒÓ£®Ÿ+
+X
+squid:S106d";Replace this usage of System.out or System.err by a logger.(¾îë8™†ŒŠ +
+=squid:S1989U"&Add a "try/catch" block for "forward".(€µ²¥
+psquid:S2226"YRemove this misleading mutable servlet instance fields or make it "static" and/or "final"(×‰ª¡
+=squid:S19893"&Add a "try/catch" block for "forward".(€µ²¥
+gsquid:CommentedOutCodeLine8"<This block of commented-out lines of code should be removed.(Õ–¸üÿÿÿÿ
+Dsquid:S1989U"&Add a "try/catch" block for "forward".(€µ²¥8ƒÓ£®Ÿ+
 Wsquid:UselessImportCheck"4Remove this unused import 'org.apache.log4j.Logger'.(ñè½
-Fsquid:S1948"/Make "commandMapper" transient or serializable.(×‰ª¡
-gsquid:S1192)"IDefine a constant instead of duplicating this literal "sharedId" 3 times.(ßäò8ƒÓ£®Ÿ+
-hsquid:UselessImportCheck"?Remove this unused import 'javax.activation.MailcapCommandMap'.(Ì€çÚúÿÿÿÿ
-Dsquid:S1989-"&Add a "try/catch" block for "forward".(€µ²¥8ƒÓ£®Ÿ+
-Dsquid:S1989-"&Add a "try/catch" block for "forward".(€µ²¥8ƒÓ£®Ÿ+
+Csquid:S1481S",Remove this unused "resultB" local variable.(äù•
 ]
-squid:S106\";Replace this usage of System.out or System.err by a logger.(ì™øÿÿÿÿ8ôëúŸ+
+squid:S1064";Replace this usage of System.out or System.err by a logger.(¤ÌÅƒùÿÿÿÿ8ÌşÈŸ+
 ]
-squid:S106V";Replace this usage of System.out or System.err by a logger.(ãµ‡©ûÿÿÿÿ8²Õ¸­Ÿ+
-psquid:S2226"YRemove this misleading mutable servlet instance fields or make it "static" and/or "final"(×‰ª¡
-Rsquid:S1854M";Remove this useless assignment to local variable "resultB".(äù•
-=squid:S1989O"&Add a "try/catch" block for "forward".(€µ²¥
+squid:S106b";Replace this usage of System.out or System.err by a logger.(ì™øÿÿÿÿ8²Õ¸­Ÿ+
+]
+squid:S106\";Replace this usage of System.out or System.err by a logger.(ãµ‡©ûÿÿÿÿ8ôëúŸ+
+Rsquid:S1854S";Remove this useless assignment to local variable "resultB".(äù•

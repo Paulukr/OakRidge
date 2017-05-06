@@ -16,6 +16,14 @@ public class ViewConstants {
 
 	public static final String ERROR_MESSAGE = "ERROR_MESSAGE";
 
+
+	//J
+	public static final String JITEM_MODEL_INDEX = "ITEM_MODEL_INDEX";
+	public static final String JITEM_INSTANSE = "Jitem_instance";
+	public static final String JITEM_QUANTITY = "Jitem_quantity";
+
+
+
 	public static String getString(){
 		return "the String";
 	}

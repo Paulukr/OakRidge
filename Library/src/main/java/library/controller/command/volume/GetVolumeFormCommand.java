@@ -29,7 +29,9 @@ public class GetVolumeFormCommand implements Command {
 		try {
 			int bookTitleDatabaseID = HttpRequestDataProcessor.getInt(request, ViewConstants.TITLE_INSTANSE_INDEX);
 			if (bookTitleService.getBookTitleByID(bookTitleDatabaseID) != null)
-				return UrlConstants.C_GET_VOLUME_ADD_FORM;
+				return UrlConstants.C_GET_VOLUME_ADD_FORM;// cycle here. This command not return form but only request it 
+			// after checking book id in catalog. Now I need make form and redirect to it with book filled in. Then I need 
+			//command for adding volume.
 		} catch (InvalidInputException e) {
 			logger.error(ErrorList.INVALID_INPUT, e);
 			request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_NOT_CHOSEN + e.getMessage());

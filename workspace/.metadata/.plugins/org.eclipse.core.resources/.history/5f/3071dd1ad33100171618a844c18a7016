@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@include file="../../WEB-INF/navigation/Config.jsp"%>
+<html>
+<body>
+hello
+	<c:set var="jitemInstanseAttributeName"
+		value="${ViewConstants.JITEM_INSTANSE}" />
+	<c:out value="${jitemInstanseAttributeName}" />
+
+	<c:set var="jitemInstanse"
+		value="${requestScope[jitemInstanseAttributeName]}" />
+	<c:out value="${jitemInstanse}" />
+
+	<c:if test="${jitemInstanse != null}">
+		<c:out value="${jitemInstanse.name}" />
+	</c:if>
+
+</body>
+</html>

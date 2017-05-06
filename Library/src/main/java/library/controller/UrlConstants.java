@@ -1,5 +1,7 @@
 package library.controller;
 
+import javax.xml.ws.Dispatch;
+
 public class UrlConstants {
 
 
@@ -25,10 +27,10 @@ public class UrlConstants {
     public static final String BOOK = "/book";
     public static final String VOLUME = "/volume";
     public static final String ADD = "/add";
-    public static final String SEARCH = "/SEARCH";
+    public static final String SEARCH = "/search";
 	public static final String ADD_FORM = "/add_form";
-	public static final String SEARCH_FORM = "/SEARCH_FORM";
-	public static final String BORROW = "/BORROW";
+	public static final String SEARCH_FORM = "/search_form";
+	public static final String BORROW = "/borrow";
 	//book
     public static final String C_GET_BOOK_ADD_FORM = COMMAND + LIBRARIAN + BOOK+ ADD_FORM;
     public static final String C_BOOK_ADD = COMMAND + LIBRARIAN + BOOK + ADD;
@@ -41,6 +43,13 @@ public class UrlConstants {
     public static final String C_GET_VOLUME_ADD_FORM = COMMAND + LIBRARIAN + VOLUME + ADD_FORM;
     public static final String C_VOLUME_ADD = COMMAND + LIBRARIAN + VOLUME + ADD;
     //
+
+    //J
+    public static final String ITEM = "/item";
+    public static final String DISPATCH = "/dispatch";
+    public static final String C_GET_JITEM_SEARCH = COMMAND + LIBRARIAN + ITEM + SEARCH;
+    public static final String C_JITEM_DISPATCH = COMMAND + LIBRARIAN + ITEM + DISPATCH;
+    public static final String JHOME = "/JItem.jsp";
 
 
 

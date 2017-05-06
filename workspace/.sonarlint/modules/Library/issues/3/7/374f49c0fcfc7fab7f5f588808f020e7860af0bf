@@ -1,7 +1,8 @@
 
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Â„ùôüÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆÀžèüÿÿÿÿ
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡–ã¤
-Nsquid:S1135!"2Complete the task associated to this TODO comment.(„·Òýÿÿÿÿ
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‘Û×´ýÿÿÿÿ
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ùÎ£»ýÿÿÿÿ8ŠÐÅ÷Ÿ+
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ã·¯ò8×Æ Û +
+²squid:S1160@"ŽRefactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.BookDublicateException(ð¶ïÁúÿÿÿÿ8’ÉÖÕ +
+nsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(°Ý›Ëÿÿÿÿÿ8úÉÉÛ +
+isquid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(‹…Öë8º­«È +
+Nsquid:S1135W"2Complete the task associated to this TODO comment.(„·Òýÿÿÿÿ
+­squid:S1160&"ŽRefactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.BookDublicateException(ç÷šê8’ÉÖÕ +
+­squid:S1160F"ŽRefactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.BookDublicateException(žóæ8’ÉÖÕ +

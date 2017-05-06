@@ -1,9 +1,10 @@
 
-Isquid:S11350"2Complete the task associated to this TODO comment.(Æå¡Ô
-csquid:S00112)"FDefine and throw a dedicated exception instead of using a generic one.(Éÿ×Öýÿÿÿÿ
-csquid:S00112R"FDefine and throw a dedicated exception instead of using a generic one.(Éÿ×Öýÿÿÿÿ
-csquid:S00112!"FDefine and throw a dedicated exception instead of using a generic one.(ÿ‘Ùæýÿÿÿÿ
-^squid:S00112<"FDefine and throw a dedicated exception instead of using a generic one.(ëÇÕí
-Usquid:S1135"2Complete the task associated to this TODO comment.(´¬ú×üÿÿÿÿ8¡üÓŸ+
-^squid:S00112%"FDefine and throw a dedicated exception instead of using a generic one.(ëÇÕí
-csquid:S00112@"FDefine and throw a dedicated exception instead of using a generic one.(Éÿ×Öýÿÿÿÿ
+jsquid:S00112i"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ëâçä +
+]squid:S1161a":Add the "@Override" annotation above this method signature(àçÌ×ûÿÿÿÿ8Ñêìä +
+?squid:S1643)"Use a StringBuilder instead.(¼ªèÿÿÿÿÿ8¶×¡Ò +
+p
+squid:S134,"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(œíÆÿÿÿÿÿ8ß¨ÈÑ +
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ã·¯ò8å³°Û +
+k
+squid:S134("NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ËûÏ8¶×¡Ò +
+Hsquid:S00108d")Either remove or fill this block of code.(â¡Öî8Ëâçä +

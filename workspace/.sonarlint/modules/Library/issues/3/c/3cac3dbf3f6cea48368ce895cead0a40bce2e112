@@ -1,9 +1,10 @@
 
-gsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(èáúŽùÿÿÿÿ
-bsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(”þŸÎ
-Usquid:S1135"2Complete the task associated to this TODO comment.(´¬ú×üÿÿÿÿ8šºûÓŸ+
-Usquid:S1135W"2Complete the task associated to this TODO comment.(´¬ú×üÿÿÿÿ8šºûÓŸ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(× óÄýÿÿÿÿ
-nsquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(Ï÷‰Žýÿÿÿÿ8¤°žöŸ+
-gsquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(—£Ôøøÿÿÿÿ
-?squid:S1643#"Use a StringBuilder instead.(¼ªèÿÿÿÿÿ8ýÕ§þŸ+
+p
+squid:S134/"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(œíÆÿÿÿÿÿ8ºý›Ñ +
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ã·¯ò8òäµÛ +
+k
+squid:S134+"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ËûÏ8ºý›Ñ +
+Dsquid:S1166„"%Either log or rethrow this exception.(É®£8Ö’ÆÎ +
+?squid:S1643,"Use a StringBuilder instead.(¼ªèÿÿÿÿÿ8ýÕ§þŸ+
+gsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(èáúŽùÿÿÿÿ
+Isquid:S00108„")Either remove or fill this block of code.(É®£8Ö’ÆÎ +

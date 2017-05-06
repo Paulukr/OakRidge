@@ -1,0 +1,24 @@
+1494002976282	Copy compilation unit
+1494003093500	Rename type 'GetVolumeFormCommand'
+1494003126548	Copy compilation unit
+1494003219581	Rename type 'AddItemCommand'
+1494003234451	Rename type 'GetItemFormCommand'
+1494003258591	Rename field 'C_GET_ITEM_ADD_FORM'
+1494003279459	Rename field 'C_ITEM_ADD'
+1494004864214	Copy compilation unit
+1494004934203	Copy compilation unit
+1494005147658	Copy compilation unit
+1494005708278	Copy compilation unit
+1494007049297	Rename type 'GetJItemFormCommand'
+1494007087196	Rename type 'AddJItemCommand'
+1494007194883	Move compilation unit
+1494007208738	Move compilation unit
+1494007213558	Move compilation unit
+1494008760622	Rename package 'library.controller.command.item'
+1494012437308	Copy file
+1494012469454	Rename resource 'BookTitleList.jsp'
+1494012610028	Rename resource 'JItemFoundt.jsp'
+1494012764469	Rename resource 'JItemFound.jsp'
+1494016015679	Copy file
+1494016023097	Rename resource 'JItem.jsp'
+1494016139634	Rename resource 'BookTitleList.jsp'

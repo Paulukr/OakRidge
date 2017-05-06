@@ -25,6 +25,11 @@ public class DaoConstants {
     public static final String BOOK_VOLUME_GET_PULL = "SELECT " + BOOK_VOLUME_FIELDS + " FROM Volume_table WHERE Title_no = ?";
     public static final String BOOK_VOLUME_GET_COUNT_AVAILABLE = "SELECT COUNT (Volume_no)"
     		+ " FROM Volume_table WHERE Title_no = ? AND Vol_available = 1";
+
+
+    //J
+    public static final String JITEM_GET_INSTANCE = "Select \"JItem_name\" from \"JItem_table\""// where "Order_No" = 1;";
+    		+ " WHERE \"Order_No\" = ?;";
 }
 /*
  * create= INSERT INTO courses ( name, about, start_date, end_date, tutor_id) \

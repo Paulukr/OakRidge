@@ -1,0 +1,8 @@
+
+p
+squid:S134m"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(œíÆÿÿÿÿÿ8îí¬ç +
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ã·¯ò8îí¬ç +
+­squid:S1160^"Refactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.BookDublicateException(Í‡ò8òâ“ò +
+?squid:S1643j"Use a StringBuilder instead.(¼ªèÿÿÿÿÿ8îí¬ç +
+k
+squid:S134i"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ËûÏ8îí¬ç +

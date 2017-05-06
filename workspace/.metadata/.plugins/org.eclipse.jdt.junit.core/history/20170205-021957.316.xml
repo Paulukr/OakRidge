@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AuthorDaoImplTest" project="Library" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="libray.test.model.dao.AuthorDaoImplTest" time="1.331">
-    <testcase name="testGetNo" classname="libray.test.model.dao.AuthorDaoImplTest" time="1.319"/>
-    <testcase name="testAddAuthor" classname="libray.test.model.dao.AuthorDaoImplTest" time="0.012"/>
-  </testsuite>
-</testrun>

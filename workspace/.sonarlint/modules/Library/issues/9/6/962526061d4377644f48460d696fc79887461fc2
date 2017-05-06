@@ -1,19 +1,4 @@
 
-nsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(üƒ–Ëıÿÿÿÿ8À×ıÍŸ+
-Tsquid:S1213("8Move this variable to comply with Java Code Conventions.(å¨úşşÿÿÿÿ
-Q
-squid:S106<";Replace this usage of System.out or System.err by a logger.(²ìÎç
-nsquid:S00117*"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†²¬ó
-nsquid:S00117-"VRename this local variable name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢æ­ù
-Csquid:S2129(" Remove this "String" constructor(å¨úşşÿÿÿÿ8øæÜ¦Ÿ+
-V
-squid:S1063";Replace this usage of System.out or System.err by a logger.(ÚœŠ½ıÿÿÿÿ
-csquid:S1226>"@Introduce a new variable instead of reusing the parameter "uri".(¿ó²•úÿÿÿÿ8À×ıÍŸ+
-Hsquid:S16025",Remove useless curly braces around statement(ıèòıøÿÿÿÿ
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ç€ìÇ
-Usquid:S1135="2Complete the task associated to this TODO comment.(ÿÒıÄøÿÿÿÿ8À×ıÍŸ+
-]
-squid:S106?";Replace this usage of System.out or System.err by a logger.(£æ†°ıÿÿÿÿ8û–ÿÍŸ+
-V
-squid:S1065";Replace this usage of System.out or System.err by a logger.(ıèòıøÿÿÿÿ
-jsquid:S11923"GDefine a constant instead of duplicating this literal "\n\n\n" 3 times.(ÚœŠ½ıÿÿÿÿ8û–ÿÍŸ+
+Usquid:S1135>"2Complete the task associated to this TODO comment.(ÿÒıÄøÿÿÿÿ8À×ıÍŸ+
+csquid:S1226@"@Introduce a new variable instead of reusing the parameter "uri".(Ô›³ıÿÿÿÿ8À×ıÍŸ+
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ç€ìÇ

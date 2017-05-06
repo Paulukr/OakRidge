@@ -35,14 +35,14 @@ public class AddBookCommand implements Command {
 			BookTitle newBookTitle = bookTitleService.getAddBookTitleRequestData(request);
 			authorService.findOrAddAuthors(newBookTitle.getAuthors());
 			Integer bookId = bookTitleService.tryAddBookTitle(newBookTitle);
-			if (bookId < 0) {
+			if (bookId < 0) {//new book added and id obtained
 				bookId = -bookId;
 				BookTitle bookTitle = bookTitleService.getBookTitleByID(bookId);
 	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
 	            request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_SUCCESFULLY_ADDED);
 	            logger.trace(ErrorList.BOOK_SUCCESFULLY_ADDED + " " +  bookId);
 	    		return UrlConstants.R_BOOK_ADD_SUCCESS;
-			}else {
+			}else {//book already exists and its id returned
 				BookTitle bookTitle = bookTitleService.getBookTitleByID(bookId);
 	            request.setAttribute(ViewConstants.TITLE_INSTANSE_LIST, new BookTitle[] {bookTitle});
 	            request.setAttribute(ViewConstants.ERROR_MESSAGE, ErrorList.BOOK_ALREADY_ADDED);

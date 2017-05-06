@@ -1,0 +1,5 @@
+
+´squid:S1160"Refactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.AuthorDublicateException(áÖ’åşÿÿÿÿ8å¾‚Ö +
+¯squid:S1160""Refactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.AuthorDublicateException(¡ÂÑÖ8Í¢ñÛ +
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ã·¯ò8¢¥Û +
+¯squid:S1160"Refactor this method to throw at most one checked exception instead of: java.sql.SQLException, library.model.exceptions.AuthorDublicateException(Ú¨¹÷8å¾‚Ö +

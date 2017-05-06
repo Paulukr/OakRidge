@@ -1,15 +1,16 @@
 
-Q
-squid:S106?";Replace this usage of System.out or System.err by a logger.(ËÀ
-Q
-squid:S106N";Replace this usage of System.out or System.err by a logger.(ğÑ©ú
-V
-squid:S106A";Replace this usage of System.out or System.err by a logger.(ì£§³ùÿÿÿÿ
-V
-squid:S106B";Replace this usage of System.out or System.err by a logger.(·Ø–Åüÿÿÿÿ
-Q
-squid:S106G";Replace this usage of System.out or System.err by a logger.(ñÀ×ê
-V
-squid:S106H";Replace this usage of System.out or System.err by a logger.(·Òÿğúÿÿÿÿ
-?squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Asquid:S1166L"%Either log or rethrow this exception.(¼Ôîàùÿÿÿÿ
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(Ã·¯ò8 ¾˜Ì +
+[squid:S18543">Remove this useless assignment to local variable "connection".(Êƒñ8è·Ş +
+csquid:S2259T"ENullPointerException might be thrown as 'connection' is nullable here(”á¬Á8è·Ş +
+=squid:S2095T"Close this "PreparedStatement".(”á¬Á8è·Ş +
+`squid:UselessImportCheck"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8šõ¿Õ +
+squid:S1488="aImmediately return this expression instead of assigning it to the temporary variable "resultSet".(ò¡¥¹8è·Ş +
+bsquid:S1854I"ERemove this useless assignment to local variable "preparedStatement".(ØüŠ48è·Ş +
+csquid:S1854T"ERemove this useless assignment to local variable "preparedStatement".(”á¬Á8è·Ş +
+hsquid:UselessImportCheck"8Remove this unused import 'java.util.function.Consumer'.(Ì†ƒÔùÿÿÿÿ8ôÛÏÍ +
+Lsquid:S14813"/Remove this unused "connection" local variable.(Êƒñ8è·Ş +
+<squid:S2095I"Close this "PreparedStatement".(ØüŠ48è·Ş +
+bsquid:S2259I"ENullPointerException might be thrown as 'connection' is nullable here(ØüŠ48è·Ş +
+^squid:UselessImportCheck".Remove this unused import 'java.io.Closeable'.(î¤ñœşÿÿÿÿ8šõ¿Õ +
+Tsquid:S1481T"6Remove this unused "preparedStatement" local variable.(”á¬Á8è·Ş +
+Ssquid:S1481I"6Remove this unused "preparedStatement" local variable.(ØüŠ48è·Ş +

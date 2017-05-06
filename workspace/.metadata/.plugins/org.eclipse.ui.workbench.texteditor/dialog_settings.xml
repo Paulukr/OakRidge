@@ -2,15 +2,25 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="PAGE" key="selection"/>
+		<item value="service" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="    public List&lt;BookVolume&gt; getVolumePool(int bookTitleId) {"/>
+			<item value="service"/>
+			<item value="authorDaoImpl"/>
+			<item value="@SuppressWarnings"/>
+			<item value="librarian"/>
+			<item value="c"/>
+			<item value="connection"/>
 			<item value="page"/>
 		</list>
 		<list key="replacehistory">
+			<item value="bookTitleService"/>
+			<item value="authorDao"/>
+			<item value="service"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

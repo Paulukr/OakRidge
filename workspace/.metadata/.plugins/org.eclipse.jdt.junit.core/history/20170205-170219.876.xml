@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="BookVolumeDaoTest" project="Library" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="library.model.dao.implemantation.BookVolumeDaoTest" time="1.265">
-    <testcase name="testGetBookVolume" classname="library.model.dao.implemantation.BookVolumeDaoTest" time="1.243"/>
-    <testcase name="testAddBookVolume" classname="library.model.dao.implemantation.BookVolumeDaoTest" time="0.01"/>
-    <testcase name="testGetVolumePool" classname="library.model.dao.implemantation.BookVolumeDaoTest" time="0.005"/>
-    <testcase name="testGetAvaluableQuantity" classname="library.model.dao.implemantation.BookVolumeDaoTest" time="0.007"/>
-  </testsuite>
-</testrun>

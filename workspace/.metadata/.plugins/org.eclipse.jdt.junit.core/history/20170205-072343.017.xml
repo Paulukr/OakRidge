@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AuthorServiceTest" project="Library" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="libray.test.model.service.AuthorServiceTest" time="1.37">
-    <testcase name="testFindAuthorID" classname="libray.test.model.service.AuthorServiceTest" time="1.346"/>
-    <testcase name="testTryAddAuthor" classname="libray.test.model.service.AuthorServiceTest" time="0.012"/>
-    <testcase name="testGetAuthorByID" classname="libray.test.model.service.AuthorServiceTest" time="0.012"/>
-  </testsuite>
-</testrun>

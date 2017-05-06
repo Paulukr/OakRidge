@@ -1,0 +1,19 @@
+
+Q
+squid:S106";Replace this usage of System.out or System.err by a logger.(ñÀ×ê
+Q
+squid:S106&";Replace this usage of System.out or System.err by a logger.(ğÑ©ú
+5squid:S2095"Close this "PreparedStatement".(¸šU
+Q
+squid:S106";Replace this usage of System.out or System.err by a logger.(ËÀ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(ì£§³ùÿÿÿÿ
+Qsquid:S1118
+":Add a private constructor to hide the implicit public one.(ÓÎ
+\squid:S2259'"ENullPointerException might be thrown as 'connection' is nullable here(İÌï
+Asquid:S1166$"%Either log or rethrow this exception.(¼Ôîàùÿÿÿÿ
+?squid:S1148("#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+V
+squid:S106 ";Replace this usage of System.out or System.err by a logger.(·Òÿğúÿÿÿÿ
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(·Ø–Åüÿÿÿÿ
